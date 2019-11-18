@@ -1,0 +1,558 @@
+{
+    "clearColor": "#86BCE0",
+    "entities": [
+        {
+            "components": [
+                {
+                    "OrthoCamera": {
+                        "zoom": 1
+                    }
+                },
+                "AutoViewport",
+                {
+                    "Tracker": {
+                        "id": 1,
+                        "trackX": true,
+                        "trackY": false
+                    }
+                },
+                {
+                    "Position": {
+                        "x": 1540,
+                        "y": 0
+                    }
+                }
+            ],
+            "name": "camera"
+        },
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "city.scml",
+                        "atlas": "city-atlas.json",
+                        "entityName": "background"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "idle"
+                    }
+                },
+                {
+                    "DrawOrder": {
+                        "kind": {
+                            "Static": {
+                                "z": -66666
+                            }
+                        }
+                    }
+                },
+                {
+                    "Position": {
+                        "x": 0,
+                        "y": 0
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "city.scml",
+                        "atlas": "city-atlas.json",
+                        "entityName": "sign"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "idle"
+                    }
+                },
+                "ItemContainer",
+                {
+                    "DrawOrder": {
+                        "kind": "ByY"
+                    }
+                },
+                {
+                    "Position": {
+                        "x": -1648,
+                        "y": -27
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "city.scml",
+                        "atlas": "city-atlas.json",
+                        "entityName": "traffic-light"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "idle"
+                    }
+                },
+                "ItemContainer",
+                {
+                    "DrawOrder": {
+                        "kind": "ByY"
+                    }
+                },
+                {
+                    "Position": {
+                        "x": -1125,
+                        "y": 202
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "city.scml",
+                        "atlas": "city-atlas.json",
+                        "entityName": "hydrant"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "idle"
+                    }
+                },
+                "ItemContainer",
+                {
+                    "DrawOrder": {
+                        "kind": "ByY"
+                    }
+                },
+                {
+                    "Position": {
+                        "x": -479,
+                        "y": 82
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "city.scml",
+                        "atlas": "city-atlas.json",
+                        "entityName": "flowers"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "idle"
+                    }
+                },
+                "ItemContainer",
+                {
+                    "DrawOrder": {
+                        "kind": "ByY"
+                    }
+                },
+                {
+                    "Position": {
+                        "x": 241,
+                        "y": 170
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "city.scml",
+                        "atlas": "city-atlas.json",
+                        "entityName": "fountain"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "idle"
+                    }
+                },
+                "ItemContainer",
+                {
+                    "DrawOrder": {
+                        "kind": "ByY"
+                    }
+                },
+                {
+                    "Position": {
+                        "x": 603,
+                        "y": 30
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "city.scml",
+                        "atlas": "city-atlas.json",
+                        "entityName": "flowers"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "idle"
+                    }
+                },
+                "ItemContainer",
+                {
+                    "DrawOrder": {
+                        "kind": "ByY"
+                    }
+                },
+                {
+                    "Position": {
+                        "x": 953,
+                        "y": 161
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "city.scml",
+                        "atlas": "city-atlas.json",
+                        "entityName": "boxes"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "idle"
+                    }
+                },
+                "ItemContainer",
+                {
+                    "DrawOrder": {
+                        "kind": "ByY"
+                    }
+                },
+                {
+                    "Position": {
+                        "x": 1644,
+                        "y": 81
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "floyd.scml",
+                        "atlas": "floyd/floyd-atlas.json",
+                        "entityName": "floyd"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "sniff-right"
+                    }
+                },
+                {
+                    "NavAgent": {
+                        "speed": 10
+                    }
+                },
+                {
+                    "PlayerState": {
+                        "action": "Sniff",
+                        "facing": "Right"
+                    }
+                },
+                {
+                    "DrawOrder": {
+                        "kind": "ByY"
+                    }
+                },
+                {
+                    "TrackerTarget": {
+                        "id": 1
+                    }
+                },
+                {
+                    "Position": {
+                        "x": -1700,
+                        "y": 250
+                    }
+                }, { "BubbleOwner": { "id": 1 } }
+            ]
+        }
+    ],
+    "height": 1080,
+    "itempool": [
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "city.scml",
+                        "atlas": "city-atlas.json",
+                        "entityName": "ambulance-item"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "slotted"
+                    }
+                },
+                { "ItemSlotSoundEffect": { "sound": "city-sfx-%lang%/krankenwagen" } }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "city.scml",
+                        "atlas": "city-atlas.json",
+                        "entityName": "bananas-item"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "slotted"
+                    }
+                },
+                { "ItemSlotSoundEffect": { "sound": "city-sfx-%lang%/banane" } }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "city.scml",
+                        "atlas": "city-atlas.json",
+                        "entityName": "betonmischer-item"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "slotted"
+                    }
+                },
+                { "ItemSlotSoundEffect": { "sound": "city-sfx-%lang%/betonmischer" } }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "city.scml",
+                        "atlas": "city-atlas.json",
+                        "entityName": "brokkoli-item"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "slotted"
+                    }
+                },
+                { "ItemSlotSoundEffect": { "sound": "city-sfx-%lang%/brokkoli" } }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "city.scml",
+                        "atlas": "city-atlas.json",
+                        "entityName": "bun-item"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "slotted"
+                    }
+                },
+                { "ItemSlotSoundEffect": { "sound": "city-sfx-%lang%/broetchen" } }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "city.scml",
+                        "atlas": "city-atlas.json",
+                        "entityName": "car-item"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "slotted"
+                    }
+                },
+                { "ItemSlotSoundEffect": { "sound": "city-sfx-%lang%/auto" } }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "city.scml",
+                        "atlas": "city-atlas.json",
+                        "entityName": "carrots-item"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "slotted"
+                    }
+                },
+                { "ItemSlotSoundEffect": { "sound": "city-sfx-%lang%/karotten" } }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "city.scml",
+                        "atlas": "city-atlas.json",
+                        "entityName": "cat-item"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "slotted"
+                    }
+                },
+                { "ItemSlotSoundEffect": { "sound": "city-sfx-%lang%/katze" } }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "city.scml",
+                        "atlas": "city-atlas.json",
+                        "entityName": "croissant-item"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "slotted"
+                    }
+                },
+                { "ItemSlotSoundEffect": { "sound": "city-sfx-%lang%/hoernchen" } }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "city.scml",
+                        "atlas": "city-atlas.json",
+                        "entityName": "cupcake-item"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "slotted"
+                    }
+                },
+                { "ItemSlotSoundEffect": { "sound": "city-sfx-%lang%/toertchen" } }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "city.scml",
+                        "atlas": "city-atlas.json",
+                        "entityName": "dove-item"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "slotted"
+                    }
+                },
+                { "ItemSlotSoundEffect": { "sound": "city-sfx-%lang%/taube" } }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "city.scml",
+                        "atlas": "city-atlas.json",
+                        "entityName": "mouse-item"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "slotted"
+                    }
+                },
+                { "ItemSlotSoundEffect": { "sound": "city-sfx-%lang%/maus" } }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "city.scml",
+                        "atlas": "city-atlas.json",
+                        "entityName": "pear-item"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "slotted"
+                    }
+                },
+                { "ItemSlotSoundEffect": { "sound": "city-sfx-%lang%/birne" } }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "city.scml",
+                        "atlas": "city-atlas.json",
+                        "entityName": "poop-item"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "slotted"
+                    }
+                },
+                { "ItemSlotSoundEffect": { "sound": "city-sfx-%lang%/igitt" } }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "city.scml",
+                        "atlas": "city-atlas.json",
+                        "entityName": "sausages-item"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "slotted"
+                    }
+                },
+                { "ItemSlotSoundEffect": { "sound": "city-sfx-%lang%/wuerstchen" } }
+            ]
+        }
+    ],
+    "width": 1920
+}

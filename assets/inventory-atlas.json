@@ -1,0 +1,28 @@
+{"frames": [
+
+{
+	"filename": "misc/blob.png",
+	"frame": {"x":284,"y":1,"w":43,"h":43},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":43,"h":43},
+	"sourceSize": {"w":43,"h":43}
+},
+{
+	"filename": "misc/bubble.png",
+	"frame": {"x":1,"y":1,"w":281,"h":279},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":281,"h":279},
+	"sourceSize": {"w":281,"h":279}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "inventory-atlas.png",
+	"format": "RGBA8888",
+	"size": {"w":328,"h":281},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:169a00a44fdde07f46c75657c9a28816:0df3aedd30d22ec20c20a751b347e901:56901ea503a25462817c3d887077efe5$"
+}
+}

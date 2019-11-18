@@ -1,0 +1,558 @@
+{
+    "clearColor": "#92CC71",
+    "entities": [
+        {
+            "components": [
+                {
+                    "OrthoCamera": {
+                        "zoom": 1
+                    }
+                },
+                "AutoViewport",
+                {
+                    "Tracker": {
+                        "id": 1,
+                        "trackX": true,
+                        "trackY": false
+                    }
+                },
+                {
+                    "Position": {
+                        "x": 1540,
+                        "y": 0
+                    }
+                }
+            ],
+            "name": "camera"
+        },
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "park.scml",
+                        "atlas": "park-atlas.json",
+                        "entityName": "background"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "idle"
+                    }
+                },
+                {
+                    "DrawOrder": {
+                        "kind": {
+                            "Static": {
+                                "z": -66666
+                            }
+                        }
+                    }
+                },
+                {
+                    "Position": {
+                        "x": 0,
+                        "y": 0
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "park.scml",
+                        "atlas": "park-atlas.json",
+                        "entityName": "tree"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "idle"
+                    }
+                },
+                "ItemContainer",
+                {
+                    "DrawOrder": {
+                        "kind": "ByY"
+                    }
+                },
+                {
+                    "Position": {
+                        "x": -1486,
+                        "y": 68
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "park.scml",
+                        "atlas": "park-atlas.json",
+                        "entityName": "lantern"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "idle"
+                    }
+                },
+                "ItemContainer",
+                {
+                    "DrawOrder": {
+                        "kind": "ByY"
+                    }
+                },
+                {
+                    "Position": {
+                        "x": -1078,
+                        "y": 136
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "park.scml",
+                        "atlas": "park-atlas.json",
+                        "entityName": "tree"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "idle"
+                    }
+                },
+                "ItemContainer",
+                {
+                    "DrawOrder": {
+                        "kind": "ByY"
+                    }
+                },
+                {
+                    "Position": {
+                        "x": -376,
+                        "y": -39
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "park.scml",
+                        "atlas": "park-atlas.json",
+                        "entityName": "tree"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "idle"
+                    }
+                },
+                "ItemContainer",
+                {
+                    "DrawOrder": {
+                        "kind": "ByY"
+                    }
+                },
+                {
+                    "Position": {
+                        "x": 250,
+                        "y": 107
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "park.scml",
+                        "atlas": "park-atlas.json",
+                        "entityName": "bush"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "idle"
+                    }
+                },
+                "ItemContainer",
+                {
+                    "DrawOrder": {
+                        "kind": "ByY"
+                    }
+                },
+                {
+                    "Position": {
+                        "x": 759,
+                        "y": 171
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "park.scml",
+                        "atlas": "park-atlas.json",
+                        "entityName": "pond"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "idle"
+                    }
+                },
+                "ItemContainer",
+                {
+                    "DrawOrder": {
+                        "kind": "ByY"
+                    }
+                },
+                {
+                    "Position": {
+                        "x": 1129,
+                        "y": 83
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "park.scml",
+                        "atlas": "park-atlas.json",
+                        "entityName": "tree"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "idle"
+                    }
+                },
+                "ItemContainer",
+                {
+                    "DrawOrder": {
+                        "kind": "ByY"
+                    }
+                },
+                {
+                    "Position": {
+                        "x": 1695,
+                        "y": 25
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "floyd.scml",
+                        "atlas": "floyd/floyd-atlas.json",
+                        "entityName": "floyd"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "sniff-right"
+                    }
+                },
+                {
+                    "NavAgent": {
+                        "speed": 10
+                    }
+                },
+                {
+                    "PlayerState": {
+                        "action": "Sniff",
+                        "facing": "Right"
+                    }
+                },
+                {
+                    "DrawOrder": {
+                        "kind": "ByY"
+                    }
+                },
+                {
+                    "TrackerTarget": {
+                        "id": 1
+                    }
+                },
+                {
+                    "Position": {
+                        "x": -1700,
+                        "y": 250
+                    }
+                }, { "BubbleOwner": { "id": 1 } }
+            ]
+        }
+    ],
+    "height": 1080,
+    "itempool": [
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "park.scml",
+                        "atlas": "park-atlas.json",
+                        "entityName": "applecore"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "slotted"
+                    }
+                },
+                { "ItemSlotSoundEffect": { "sound": "park-sfx-%lang%/apfelbutzen" } }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "park.scml",
+                        "atlas": "park-atlas.json",
+                        "entityName": "ball"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "slotted"
+                    }
+                },
+                { "ItemSlotSoundEffect": { "sound": "park-sfx-%lang%/fussball" } }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "park.scml",
+                        "atlas": "park-atlas.json",
+                        "entityName": "bee"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "slotted"
+                    }
+                },
+                { "ItemSlotSoundEffect": { "sound": "park-sfx-%lang%/biene" } }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "park.scml",
+                        "atlas": "park-atlas.json",
+                        "entityName": "bike"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "slotted"
+                    }
+                },
+                { "ItemSlotSoundEffect": { "sound": "park-sfx-%lang%/laufrad" } }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "park.scml",
+                        "atlas": "park-atlas.json",
+                        "entityName": "bird"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "slotted"
+                    }
+                },
+                { "ItemSlotSoundEffect": { "sound": "park-sfx-%lang%/spatz" } }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "park.scml",
+                        "atlas": "park-atlas.json",
+                        "entityName": "brezel"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "slotted"
+                    }
+                },
+                { "ItemSlotSoundEffect": { "sound": "park-sfx-%lang%/brezel" } }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "park.scml",
+                        "atlas": "park-atlas.json",
+                        "entityName": "butterfly"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "slotted"
+                    }
+                },
+                { "ItemSlotSoundEffect": { "sound": "park-sfx-%lang%/schmetterling" } }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "park.scml",
+                        "atlas": "park-atlas.json",
+                        "entityName": "cartoy"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "slotted"
+                    }
+                },
+                { "ItemSlotSoundEffect": { "sound": "park-sfx-%lang%/spielzeugauto" } }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "park.scml",
+                        "atlas": "park-atlas.json",
+                        "entityName": "duck"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "slotted"
+                    }
+                },
+                { "ItemSlotSoundEffect": { "sound": "park-sfx-%lang%/ente" } }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "park.scml",
+                        "atlas": "park-atlas.json",
+                        "entityName": "flower"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "slotted"
+                    }
+                },
+                { "ItemSlotSoundEffect": { "sound": "park-sfx-%lang%/blumen" } }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "park.scml",
+                        "atlas": "park-atlas.json",
+                        "entityName": "goldfish"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "slotted"
+                    }
+                },
+                { "ItemSlotSoundEffect": { "sound": "park-sfx-%lang%/goldfisch" } }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "park.scml",
+                        "atlas": "park-atlas.json",
+                        "entityName": "ladybug"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "slotted"
+                    }
+                },
+                { "ItemSlotSoundEffect": { "sound": "park-sfx-%lang%/marienkaefer" } }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "park.scml",
+                        "atlas": "park-atlas.json",
+                        "entityName": "mule"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "slotted"
+                    }
+                },
+                { "ItemSlotSoundEffect": { "sound": "park-sfx-%lang%/maulwurf" } }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "park.scml",
+                        "atlas": "park-atlas.json",
+                        "entityName": "pickup"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "slotted"
+                    }
+                },
+                { "ItemSlotSoundEffect": { "sound": "park-sfx-%lang%/pickup" } }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "park.scml",
+                        "atlas": "park-atlas.json",
+                        "entityName": "snake"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "slotted"
+                    }
+                },
+                { "ItemSlotSoundEffect": { "sound": "park-sfx-%lang%/schlange" } }
+            ]
+        }
+    ],
+    "width": 1920
+}

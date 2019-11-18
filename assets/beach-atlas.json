@@ -1,0 +1,388 @@
+{"frames": [
+
+{
+	"filename": "beach-items/alge-grey.png",
+	"frame": {"x":1461,"y":234,"w":232,"h":220},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":232,"h":220},
+	"sourceSize": {"w":232,"h":220}
+},
+{
+	"filename": "beach-items/alge.png",
+	"frame": {"x":1695,"y":221,"w":232,"h":220},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":232,"h":220},
+	"sourceSize": {"w":232,"h":220}
+},
+{
+	"filename": "beach-items/boat-grey.png",
+	"frame": {"x":516,"y":582,"w":230,"h":221},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":230,"h":221},
+	"sourceSize": {"w":230,"h":221}
+},
+{
+	"filename": "beach-items/boat.png",
+	"frame": {"x":385,"y":866,"w":230,"h":221},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":230,"h":221},
+	"sourceSize": {"w":230,"h":221}
+},
+{
+	"filename": "beach-items/bucket-grey.png",
+	"frame": {"x":578,"y":1089,"w":187,"h":230},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":187,"h":230},
+	"sourceSize": {"w":187,"h":230}
+},
+{
+	"filename": "beach-items/bucket.png",
+	"frame": {"x":1540,"y":840,"w":187,"h":230},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":187,"h":230},
+	"sourceSize": {"w":187,"h":230}
+},
+{
+	"filename": "beach-items/clam-grey.png",
+	"frame": {"x":1524,"y":1072,"w":197,"h":183},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":197,"h":183},
+	"sourceSize": {"w":197,"h":183}
+},
+{
+	"filename": "beach-items/clam.png",
+	"frame": {"x":1186,"y":1204,"w":197,"h":183},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":197,"h":183},
+	"sourceSize": {"w":197,"h":183}
+},
+{
+	"filename": "beach-items/crab-grey.png",
+	"frame": {"x":1690,"y":1,"w":246,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":246,"h":218},
+	"sourceSize": {"w":246,"h":218}
+},
+{
+	"filename": "beach-items/crab.png",
+	"frame": {"x":954,"y":367,"w":246,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":246,"h":218},
+	"sourceSize": {"w":246,"h":218}
+},
+{
+	"filename": "beach-items/divingset-grey.png",
+	"frame": {"x":748,"y":587,"w":227,"h":216},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":227,"h":216},
+	"sourceSize": {"w":227,"h":216}
+},
+{
+	"filename": "beach-items/divingset.png",
+	"frame": {"x":799,"y":815,"w":227,"h":216},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":227,"h":216},
+	"sourceSize": {"w":227,"h":216}
+},
+{
+	"filename": "beach-items/fish1-grey.png",
+	"frame": {"x":1028,"y":1026,"w":253,"h":174},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":253,"h":174},
+	"sourceSize": {"w":253,"h":174}
+},
+{
+	"filename": "beach-items/fish1.png",
+	"frame": {"x":1285,"y":840,"w":253,"h":174},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":253,"h":174},
+	"sourceSize": {"w":253,"h":174}
+},
+{
+	"filename": "beach-items/fish2-grey.png",
+	"frame": {"x":1459,"y":456,"w":235,"h":194},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":235,"h":194},
+	"sourceSize": {"w":235,"h":194}
+},
+{
+	"filename": "beach-items/fish2.png",
+	"frame": {"x":949,"y":1202,"w":235,"h":194},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":235,"h":194},
+	"sourceSize": {"w":235,"h":194}
+},
+{
+	"filename": "beach-items/fishing-ship-grey.png",
+	"frame": {"x":1204,"y":1,"w":241,"h":231},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":241,"h":231},
+	"sourceSize": {"w":241,"h":231}
+},
+{
+	"filename": "beach-items/fishing-ship.png",
+	"frame": {"x":1447,"y":1,"w":241,"h":231},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":241,"h":231},
+	"sourceSize": {"w":241,"h":231}
+},
+{
+	"filename": "beach-items/hat-grey.png",
+	"frame": {"x":1454,"y":652,"w":237,"h":186},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":237,"h":186},
+	"sourceSize": {"w":237,"h":186}
+},
+{
+	"filename": "beach-items/hat.png",
+	"frame": {"x":1285,"y":1016,"w":237,"h":186},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":237,"h":186},
+	"sourceSize": {"w":237,"h":186}
+},
+{
+	"filename": "beach-items/ice-grey.png",
+	"frame": {"x":617,"y":805,"w":180,"h":231},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":231},
+	"sourceSize": {"w":180,"h":231}
+},
+{
+	"filename": "beach-items/ice.png",
+	"frame": {"x":767,"y":1038,"w":180,"h":231},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":231},
+	"sourceSize": {"w":180,"h":231}
+},
+{
+	"filename": "beach-items/jelly-grey.png",
+	"frame": {"x":1729,"y":819,"w":211,"h":208},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":211,"h":208},
+	"sourceSize": {"w":211,"h":208}
+},
+{
+	"filename": "beach-items/jelly.png",
+	"frame": {"x":1729,"y":1029,"w":211,"h":208},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":211,"h":208},
+	"sourceSize": {"w":211,"h":208}
+},
+{
+	"filename": "beach-items/seagull-grey.png",
+	"frame": {"x":1204,"y":234,"w":255,"h":206},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":255,"h":206},
+	"sourceSize": {"w":255,"h":206}
+},
+{
+	"filename": "beach-items/seagull.png",
+	"frame": {"x":1202,"y":442,"w":255,"h":206},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":255,"h":206},
+	"sourceSize": {"w":255,"h":206}
+},
+{
+	"filename": "beach-items/star-grey.png",
+	"frame": {"x":358,"y":1089,"w":218,"h":226},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":218,"h":226},
+	"sourceSize": {"w":218,"h":226}
+},
+{
+	"filename": "beach-items/star.png",
+	"frame": {"x":977,"y":587,"w":218,"h":226},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":218,"h":226},
+	"sourceSize": {"w":218,"h":226}
+},
+{
+	"filename": "beach-items/sundance-grey.png",
+	"frame": {"x":823,"y":259,"w":129,"h":238},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":129,"h":238},
+	"sourceSize": {"w":129,"h":238}
+},
+{
+	"filename": "beach-items/sundance.png",
+	"frame": {"x":385,"y":626,"w":129,"h":238},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":129,"h":238},
+	"sourceSize": {"w":129,"h":238}
+},
+{
+	"filename": "beach-items/sunglasses-grey.png",
+	"frame": {"x":1197,"y":650,"w":255,"h":186},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":255,"h":186},
+	"sourceSize": {"w":255,"h":186}
+},
+{
+	"filename": "beach-items/sunglasses.png",
+	"frame": {"x":1028,"y":838,"w":255,"h":186},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":255,"h":186},
+	"sourceSize": {"w":255,"h":186}
+},
+{
+	"filename": "beach-items/trunks-grey.png",
+	"frame": {"x":1696,"y":443,"w":244,"h":186},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":244,"h":186},
+	"sourceSize": {"w":244,"h":186}
+},
+{
+	"filename": "beach-items/trunks.png",
+	"frame": {"x":1696,"y":631,"w":244,"h":186},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":244,"h":186},
+	"sourceSize": {"w":244,"h":186}
+},
+{
+	"filename": "beach-tiles/beach.png",
+	"frame": {"x":949,"y":1033,"w":65,"h":65},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":65,"h":65},
+	"sourceSize": {"w":65,"h":65}
+},
+{
+	"filename": "beach-tiles/bg-beach-up.png",
+	"frame": {"x":1,"y":1,"w":960,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":960,"h":256},
+	"sourceSize": {"w":960,"h":256}
+},
+{
+	"filename": "beach-tiles/chair.png",
+	"frame": {"x":1,"y":626,"w":382,"h":429},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":382,"h":429},
+	"sourceSize": {"w":382,"h":429}
+},
+{
+	"filename": "beach-tiles/lifesaver.png",
+	"frame": {"x":963,"y":1,"w":239,"h":364},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":239,"h":364},
+	"sourceSize": {"w":239,"h":364}
+},
+{
+	"filename": "beach-tiles/lighthouse.png",
+	"frame": {"x":1385,"y":1204,"w":50,"h":139},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":50,"h":139},
+	"sourceSize": {"w":50,"h":139}
+},
+{
+	"filename": "beach-tiles/sand.png",
+	"frame": {"x":767,"y":1271,"w":157,"h":93},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":157,"h":93},
+	"sourceSize": {"w":157,"h":93}
+},
+{
+	"filename": "beach-tiles/sandcastle.png",
+	"frame": {"x":1,"y":1057,"w":355,"h":320},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":355,"h":320},
+	"sourceSize": {"w":355,"h":320}
+},
+{
+	"filename": "beach-tiles/seagrass.png",
+	"frame": {"x":456,"y":259,"w":365,"h":321},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":365,"h":321},
+	"sourceSize": {"w":365,"h":321}
+},
+{
+	"filename": "beach-tiles/ship1.png",
+	"frame": {"x":1437,"y":1204,"w":71,"h":87},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":71,"h":87},
+	"sourceSize": {"w":71,"h":87}
+},
+{
+	"filename": "beach-tiles/ship2.png",
+	"frame": {"x":516,"y":805,"w":39,"h":55},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":39,"h":55},
+	"sourceSize": {"w":39,"h":55}
+},
+{
+	"filename": "beach-tiles/ship3.png",
+	"frame": {"x":823,"y":499,"w":128,"h":55},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":55},
+	"sourceSize": {"w":128,"h":55}
+},
+{
+	"filename": "beach-tiles/ship4.png",
+	"frame": {"x":358,"y":1317,"w":118,"h":35},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":118,"h":35},
+	"sourceSize": {"w":118,"h":35}
+},
+{
+	"filename": "beach-tiles/towel.png",
+	"frame": {"x":1,"y":259,"w":453,"h":365},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":453,"h":365},
+	"sourceSize": {"w":453,"h":365}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "beach-atlas.png",
+	"format": "RGBA8888",
+	"size": {"w":1941,"h":1397},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:122614306dc6b0c809af323d7ef9a050:2f568bc1f60191b3e0d5a4ddc4cd00d8:3c8a5086e43a5388d82a52b84dc3adf4$"
+}
+}

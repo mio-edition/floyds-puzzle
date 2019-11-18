@@ -1,0 +1,310 @@
+{
+	"entities": [
+		{
+			"name": "camera",
+			"components": [
+				{
+					"OrthoCamera": {
+						"zoom": 1.0
+					}
+				},
+				"AutoViewport",
+				{
+					"Position": {
+						"x": 0,
+						"y": 0
+					}
+				}
+			]
+		},
+		{
+			"name": "slot-1",
+			"components": [
+				{
+					"Position": {
+						"x": -700,
+						"y": 400
+					}
+				},
+				"SpriterAABBQuery",
+				{
+					"InventorySlot": {
+						"index": 1
+					}
+				},
+				{
+					"DrawOrder": {
+						"kind": {
+							"Static": {
+								"z": 0
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "slot-2",
+			"components": [
+				{
+					"Position": {
+						"x": -350,
+						"y": 400
+					}
+				},
+				"SpriterAABBQuery",
+				{
+					"InventorySlot": {
+						"index": 2
+					}
+				},
+				{
+					"DrawOrder": {
+						"kind": {
+							"Static": {
+								"z": 0
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "slot-3",
+			"components": [
+				{
+					"Position": {
+						"x": 0,
+						"y": 400
+					}
+				},
+				"SpriterAABBQuery",
+				{
+					"InventorySlot": {
+						"index": 3
+					}
+				},
+				{
+					"DrawOrder": {
+						"kind": {
+							"Static": {
+								"z": 0
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "slot-4",
+			"components": [
+				{
+					"Position": {
+						"x": 350,
+						"y": 400
+					}
+				},
+				"SpriterAABBQuery",
+				{
+					"InventorySlot": {
+						"index": 4
+					}
+				},
+				{
+					"DrawOrder": {
+						"kind": {
+							"Static": {
+								"z": 0
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "slot-5",
+			"components": [
+				{
+					"Position": {
+						"x": 700,
+						"y": 400
+					}
+				},
+				"SpriterAABBQuery",
+				{
+					"InventorySlot": {
+						"index": 5
+					}
+				},
+				{
+					"DrawOrder": {
+						"kind": {
+							"Static": {
+								"z": 0
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "spot",
+			"components": [
+				{
+					"Position": {
+						"x": 525,
+						"y": 400
+					}
+				},
+				{
+					"SpriterModel": {
+						"scml": "inventory.scml",
+						"atlas": "inventory-atlas.json",
+						"entityName": "spot"
+					}
+				},
+				{
+					"SpriterAnimation": {
+						"name": "idle"
+					}
+				},
+				{
+					"DrawOrder": {
+						"kind": {
+							"Static": {
+								"z": 0
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "spot",
+			"components": [
+				{
+					"Position": {
+						"x": 175,
+						"y": 400
+					}
+				},
+				{
+					"SpriterModel": {
+						"scml": "inventory.scml",
+						"atlas": "inventory-atlas.json",
+						"entityName": "spot"
+					}
+				},
+				{
+					"SpriterAnimation": {
+						"name": "idle"
+					}
+				},
+				{
+					"DrawOrder": {
+						"kind": {
+							"Static": {
+								"z": 0
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "spot",
+			"components": [
+				{
+					"Position": {
+						"x": -175,
+						"y": 400
+					}
+				},
+				{
+					"SpriterModel": {
+						"scml": "inventory.scml",
+						"atlas": "inventory-atlas.json",
+						"entityName": "spot"
+					}
+				},
+				{
+					"SpriterAnimation": {
+						"name": "idle"
+					}
+				},
+				{
+					"DrawOrder": {
+						"kind": {
+							"Static": {
+								"z": 0
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "spot",
+			"components": [
+				{
+					"Position": {
+						"x": -525,
+						"y": 400
+					}
+				},
+				{
+					"SpriterModel": {
+						"scml": "inventory.scml",
+						"atlas": "inventory-atlas.json",
+						"entityName": "spot"
+					}
+				},
+				{
+					"SpriterAnimation": {
+						"name": "idle"
+					}
+				},
+				{
+					"DrawOrder": {
+						"kind": {
+							"Static": {
+								"z": 0
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "bubble",
+			"components": [
+				{ "BubbleTag": { "id": 1 } },
+				{
+					"Position": {
+						"x": 0,
+						"y": -200
+					}
+				},
+				{
+					"SpriterModel": {
+						"scml": "inventory.scml",
+						"atlas": "inventory-atlas.json",
+						"entityName": "bubble"
+					}
+				},
+				{
+					"SpriterAnimation": {}
+				},
+				{
+					"DrawOrder": {
+						"kind": {
+							"Static": {
+								"z": 0
+							}
+						}
+					}
+				}
+			]
+		}
+	]
+}

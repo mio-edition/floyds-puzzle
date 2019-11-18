@@ -1,0 +1,35 @@
+{
+  "clearColor": "#98E4F9",
+  "entities": [
+    {
+      "name": "camera",
+      "components": [
+        { "OrthoCamera": { "zoom": 1.0 } },
+        "AutoViewport",
+        {
+            "Position": {
+                "x": 0, "y": 0
+            }
+        }
+      ]
+    },
+    {
+      "name": "screen",
+      "components": [
+        { "Position": { "x": 0, "y": 0 } },
+        { "SpriterModel": { "scml": "menu.scml", "atlas": "menu-atlas.json", "entityName": "credits-screen" } },
+        { "SpriterAnimation" : { "name": "idle" } }
+      ]
+    },
+    {
+      "name": "back",
+      "components": [
+        { "Position": { "x": -500, "y": 400 } },
+        { "SpriterModel": { "scml": "menu.scml", "atlas": "menu-atlas.json", "entityName": "back-button" } },
+        { "SpriterAnimation" : { "name": "idle" } },
+        "SpriterAABBQuery",
+        { "MenuButton": { "actions": ["Back"] } }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{"frames": [
+
+{
+	"filename": "floyd/body.png",
+	"frame": {"x":1105,"y":2,"w":181,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":181,"h":128},
+	"sourceSize": {"w":181,"h":128}
+},
+{
+	"filename": "floyd/ear-in.png",
+	"frame": {"x":1004,"y":2,"w":98,"h":143},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":98,"h":143},
+	"sourceSize": {"w":98,"h":143}
+},
+{
+	"filename": "floyd/ear.png",
+	"frame": {"x":1105,"y":133,"w":129,"h":119},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":129,"h":119},
+	"sourceSize": {"w":129,"h":119}
+},
+{
+	"filename": "floyd/eyes-closed.png",
+	"frame": {"x":606,"y":234,"w":91,"h":14},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":91,"h":14},
+	"sourceSize": {"w":91,"h":14}
+},
+{
+	"filename": "floyd/eyes-front.png",
+	"frame": {"x":798,"y":181,"w":90,"h":33},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":90,"h":33},
+	"sourceSize": {"w":90,"h":33}
+},
+{
+	"filename": "floyd/eyes.png",
+	"frame": {"x":670,"y":182,"w":87,"h":44},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":87,"h":44},
+	"sourceSize": {"w":87,"h":44}
+},
+{
+	"filename": "floyd/floyd-front.png",
+	"frame": {"x":2,"y":2,"w":259,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":259,"h":250},
+	"sourceSize": {"w":259,"h":250}
+},
+{
+	"filename": "floyd/floyd.png",
+	"frame": {"x":264,"y":2,"w":339,"h":242},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":339,"h":242},
+	"sourceSize": {"w":339,"h":242}
+},
+{
+	"filename": "floyd/foreleg.png",
+	"frame": {"x":891,"y":171,"w":37,"h":81},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":37,"h":81},
+	"sourceSize": {"w":37,"h":81}
+},
+{
+	"filename": "floyd/hair.png",
+	"frame": {"x":700,"y":229,"w":12,"h":13},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":12,"h":13},
+	"sourceSize": {"w":12,"h":13}
+},
+{
+	"filename": "floyd/head-front.png",
+	"frame": {"x":887,"y":2,"w":114,"h":166},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":114,"h":166},
+	"sourceSize": {"w":119,"h":166}
+},
+{
+	"filename": "floyd/head-right.png",
+	"frame": {"x":606,"y":2,"w":138,"h":177},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":138,"h":177},
+	"sourceSize": {"w":138,"h":177}
+},
+{
+	"filename": "floyd/head.png",
+	"frame": {"x":747,"y":2,"w":137,"h":176},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":137,"h":176},
+	"sourceSize": {"w":137,"h":176}
+},
+{
+	"filename": "floyd/hindleg.png",
+	"frame": {"x":1004,"y":148,"w":32,"h":91},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":91},
+	"sourceSize": {"w":32,"h":91}
+},
+{
+	"filename": "floyd/snout-line.png",
+	"frame": {"x":798,"y":217,"w":47,"h":32},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":47,"h":32},
+	"sourceSize": {"w":47,"h":32}
+},
+{
+	"filename": "floyd/snout.png",
+	"frame": {"x":606,"y":182,"w":61,"h":49},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":61,"h":49},
+	"sourceSize": {"w":61,"h":49}
+},
+{
+	"filename": "floyd/tail.png",
+	"frame": {"x":1237,"y":133,"w":40,"h":108},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":40,"h":108},
+	"sourceSize": {"w":40,"h":108}
+},
+{
+	"filename": "floyd/tongue.png",
+	"frame": {"x":760,"y":181,"w":35,"h":41},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":35,"h":41},
+	"sourceSize": {"w":35,"h":41}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "floyd-atlas.png",
+	"format": "RGBA8888",
+	"size": {"w":1288,"h":254},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:64e9d0685d0fb385b8024248cfcdd182:6aeebe8213a22778837937cb3da9d7d1:b61d9312824377b9423f035a1717500f$"
+}
+}

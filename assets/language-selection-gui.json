@@ -1,0 +1,63 @@
+{
+  "clearColor": "#98E4F9",
+  "entities": [
+    {
+      "name": "camera",
+      "components": [
+        { "OrthoCamera": { "zoom": 1.0 } },
+        "AutoViewport",
+        {
+            "Position": {
+                "x": 0, "y": 0
+            }
+        }
+      ]
+    },
+    {
+      "name": "logo",
+      "components": [
+        { "Position": { "x": 0, "y": -280 } },
+        { "SpriterModel": { "scml": "menu.scml", "atlas": "menu-atlas.json", "entityName": "logo" } },
+        { "SpriterAnimation" : { "name": "idle" } }
+      ]
+    },
+    {
+      "name": "banner",
+      "components": [
+        { "Position": { "x": 0, "y": 200 } },
+        { "SpriterModel": { "scml": "menu.scml", "atlas": "menu-atlas.json", "entityName": "banner" } },
+        { "SpriterAnimation" : { "name": "idle" } }
+      ]
+    },
+    {
+      "name": "de-button",
+      "components": [
+        { "Position": { "x": -320, "y": 200 } },
+        { "SpriterModel": { "scml": "menu.scml", "atlas": "menu-atlas.json", "entityName": "lang-de" } },
+        { "SpriterAnimation" : { "name": "idle" } },
+        "SpriterAABBQuery",
+        { "MenuButton": { "actions": [{ "SetLanguage": { "language": "de" } }, { "LoadGui": { "id": "menu-gui.json" } }] } }
+      ]
+    },
+    {
+      "name": "en-button",
+      "components": [
+        { "Position": { "x": 320, "y": 200 } },
+        { "SpriterModel": { "scml": "menu.scml", "atlas": "menu-atlas.json", "entityName": "lang-en" } },
+        { "SpriterAnimation" : { "name": "idle" } },
+        "SpriterAABBQuery",
+        { "MenuButton": { "actions": [{ "SetLanguage": { "language": "en" } }, { "LoadGui": { "id": "menu-gui.json" } }] } }
+      ]
+    },
+    {
+      "name": "voice-toggle",
+      "components": [
+        { "Position": { "x": 15, "y": 430 } },
+        { "SpriterModel": { "scml": "menu.scml", "atlas": "menu-atlas.json", "entityName": "voice-option" } },
+        { "SpriterAnimation" : { "name": "enabled" } },
+        "SpriterAABBQuery",
+        { "MenuToggle": { "action": "ToggleVoice" } }
+      ]
+    }
+  ]
+}

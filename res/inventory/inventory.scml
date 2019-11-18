@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r11">
+    <folder id="0" name="misc">
+        <file id="0" name="misc/blob.png" width="43" height="43" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="1" name="misc/bubble.png" width="281" height="279" pivot_x="0.5" pivot_y="0.5"/>
+    </folder>
+    <entity id="0" name="bubble">
+        <animation id="0" name="appear-left" length="125" interval="25">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="25">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                </key>
+                <key id="2" time="50">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
+                </key>
+                <key id="3" time="100">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="1" z_index="2"/>
+                </key>
+                <key id="4" time="125">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="2" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="2" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="blob">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-155" y="-179" angle="0" scale_x="0.1" scale_y="0.1"/>
+                </key>
+                <key id="1" time="25" spin="0">
+                    <object folder="0" file="0" x="-155" y="-179" angle="0"/>
+                </key>
+                <key id="2" time="125" spin="0">
+                    <object folder="0" file="0" x="-155" y="-179" angle="0" scale_x="0.01" scale_y="0.01"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="blob_000">
+                <key id="0" time="25" spin="0">
+                    <object folder="0" file="0" x="-140" y="-114" angle="0" scale_x="0.1" scale_y="0.1"/>
+                </key>
+                <key id="1" time="50" spin="0">
+                    <object folder="0" file="0" x="-140" y="-114" angle="0" scale_x="1.25" scale_y="1.25"/>
+                </key>
+                <key id="2" time="125" spin="0">
+                    <object folder="0" file="0" x="-140" y="-114" angle="0" scale_x="0.01" scale_y="0.01"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="bubble">
+                <key id="0" time="50" spin="0">
+                    <object folder="0" file="1" x="1" y="3" angle="0" scale_x="0.1" scale_y="0.1"/>
+                </key>
+                <key id="1" time="100" spin="0">
+                    <object folder="0" file="1" x="1" y="3" angle="0"/>
+                </key>
+                <key id="2" time="125" spin="0">
+                    <object folder="0" file="1" x="1" y="3" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="appear-right" length="125" interval="25">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="25">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                </key>
+                <key id="2" time="50">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
+                </key>
+                <key id="3" time="100">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="1" z_index="2"/>
+                </key>
+                <key id="4" time="125">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="2" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="2" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="blob">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="155" y="-179" scale_x="-0.1" scale_y="0.1"/>
+                </key>
+                <key id="1" time="25" spin="0">
+                    <object folder="0" file="0" x="155" y="-179" scale_x="-1"/>
+                </key>
+                <key id="2" time="125" spin="0">
+                    <object folder="0" file="0" x="155" y="-179" scale_x="-0.01" scale_y="0.01"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="blob_000">
+                <key id="0" time="25" spin="0">
+                    <object folder="0" file="0" x="140" y="-114" scale_x="-0.1" scale_y="0.1"/>
+                </key>
+                <key id="1" time="50" spin="0">
+                    <object folder="0" file="0" x="140" y="-114" scale_x="-1.25" scale_y="1.25"/>
+                </key>
+                <key id="2" time="125" spin="0">
+                    <object folder="0" file="0" x="140" y="-114" scale_x="-0.01" scale_y="0.01"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="bubble">
+                <key id="0" time="50" spin="0">
+                    <object folder="0" file="1" x="-1" y="3" scale_x="-0.1" scale_y="0.1"/>
+                </key>
+                <key id="1" time="100">
+                    <object folder="0" file="1" x="-1" y="3" scale_x="-1"/>
+                </key>
+                <key id="2" time="125">
+                    <object folder="0" file="1" x="-1" y="3" angle="0" scale_x="-1"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+    <entity id="1" name="spot">
+        <animation id="0" name="idle" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="blob">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>

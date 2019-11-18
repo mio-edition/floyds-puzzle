@@ -1,0 +1,7 @@
+{
+	"scripts": {
+		"google-play:build": "node Kha/make --target google-play --compile",
+		"windows:build": "node Kha/make --target windows --visualstudio vs2017 --compile",
+		"windows:run": "node Kha/make --target windows --visualstudio vs2017 --run"
+	}
+}

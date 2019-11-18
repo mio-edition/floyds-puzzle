@@ -1,0 +1,57 @@
+[submodule "libs/ecx-common"]
+	path = libs/ecx-common
+	url = https://github.com/eliasku/ecx-common.git
+[submodule "libs/kex-io"]
+	path = libs/kex-io
+	url = https://github.com/sh-dave/kex-io.git
+[submodule "libs/kex-spriter-io"]
+	path = libs/kex-spriter-io
+	url = https://github.com/sh-dave/kex-spriter-io.git
+[submodule "libs/tink_core"]
+	path = libs/tink_core
+	url = https://github.com/haxetink/tink_core.git
+[submodule "libs/tink_json"]
+	path = libs/tink_json
+	url = https://github.com/haxetink/tink_json.git
+[submodule "libs/tink_typecrawler"]
+	path = libs/tink_typecrawler
+	url = https://github.com/haxetink/tink_typecrawler.git
+[submodule "libs/tink_macro"]
+	path = libs/tink_macro
+	url = https://github.com/haxetink/tink_macro.git
+[submodule "libs/kex-tpjsaa-io"]
+	path = libs/kex-tpjsaa-io
+	url = https://github.com/sh-dave/kex-tpjsaa-io.git
+[submodule "libs/kex-atlas"]
+	path = libs/kex-atlas
+	url = https://github.com/sh-dave/kex-atlas.git
+[submodule "libs/spriter"]
+	path = libs/spriter
+	url = https://github.com/wighawag/spriter.git
+[submodule "libs/kex-math"]
+	path = libs/kex-math
+	url = https://github.com/sh-dave/kex-math.git
+[submodule "Kha"]
+	path = Kha
+	url = https://github.com/Kode/Kha.git
+[submodule "libs/haxe-format-tpjsaa"]
+	path = libs/haxe-format-tpjsaa
+	url = https://github.com/sh-dave/haxe-format-tpjsaa.git
+[submodule "libs/kex-notifications"]
+	path = libs/kex-notifications
+	url = https://github.com/sh-dave/kex-notifications.git
+[submodule "libs/kex-text"]
+	path = libs/kex-text
+	url = https://github.com/sh-dave/kex-text.git
+[submodule "libs/tink_core_ext"]
+	path = libs/tink_core_ext
+	url = https://github.com/kevinresol/tink_core_ext.git
+[submodule "libs/ecx"]
+	path = libs/ecx
+	url = https://github.com/sh-dave/ecx.git
+[submodule "libs/kex-input"]
+	path = libs/kex-input
+	url = https://github.com/sh-dave/kex-input.git
+[submodule "libs/hxnodejs"]
+	path = libs/hxnodejs
+	url = https://github.com/haxefoundation/hxnodejs.git

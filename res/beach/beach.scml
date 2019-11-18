@@ -1,0 +1,1265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r11">
+    <folder id="0" name="beach-tiles">
+        <file id="0" name="beach-tiles/bg-beach-up.png" width="960" height="256" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="1" name="beach-tiles/beach.png" width="65" height="65" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="2" name="beach-tiles/sand.png" width="157" height="93" pivot_x="0.5" pivot_y="0"/>
+        <file id="3" name="beach-tiles/chair.png" width="382" height="429" pivot_x="0.5" pivot_y="0"/>
+        <file id="4" name="beach-tiles/ship1.png" width="71" height="87" pivot_x="0" pivot_y="1"/>
+        <file id="5" name="beach-tiles/ship3.png" width="128" height="55" pivot_x="0" pivot_y="1"/>
+        <file id="6" name="beach-tiles/ship4.png" width="118" height="35" pivot_x="0" pivot_y="1"/>
+        <file id="7" name="beach-tiles/ship2.png" width="39" height="55" pivot_x="0" pivot_y="1"/>
+        <file id="8" name="beach-tiles/towel.png" width="453" height="365" pivot_x="0.5" pivot_y="0"/>
+        <file id="9" name="beach-tiles/seagrass.png" width="365" height="321" pivot_x="0.5" pivot_y="0"/>
+        <file id="10" name="beach-tiles/sandcastle.png" width="355" height="320" pivot_x="0.5" pivot_y="0"/>
+        <file id="11" name="beach-tiles/lifesaver.png" width="239" height="364" pivot_x="0.5" pivot_y="0"/>
+    </folder>
+    <folder id="1" name="beach-items">
+        <file id="0" name="beach-items/alge-grey.png" width="232" height="220" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="1" name="beach-items/alge.png" width="232" height="220" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="2" name="beach-items/boat-grey.png" width="230" height="221" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="3" name="beach-items/boat.png" width="230" height="221" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="4" name="beach-items/bucket-grey.png" width="187" height="230" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="5" name="beach-items/bucket.png" width="187" height="230" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="6" name="beach-items/clam-grey.png" width="197" height="183" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="7" name="beach-items/clam.png" width="197" height="183" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="8" name="beach-items/crab-grey.png" width="246" height="218" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="9" name="beach-items/crab.png" width="246" height="218" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="10" name="beach-items/divingset-grey.png" width="227" height="216" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="11" name="beach-items/divingset.png" width="227" height="216" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="12" name="beach-items/fish1-grey.png" width="253" height="174" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="13" name="beach-items/fish1.png" width="253" height="174" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="14" name="beach-items/fish2-grey.png" width="235" height="194" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="15" name="beach-items/fish2.png" width="235" height="194" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="16" name="beach-items/fishing-ship-grey.png" width="241" height="231" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="17" name="beach-items/fishing-ship.png" width="241" height="231" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="18" name="beach-items/hat-grey.png" width="237" height="186" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="19" name="beach-items/hat.png" width="237" height="186" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="20" name="beach-items/ice-grey.png" width="180" height="231" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="21" name="beach-items/ice.png" width="180" height="231" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="22" name="beach-items/jelly-grey.png" width="211" height="208" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="23" name="beach-items/jelly.png" width="211" height="208" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="24" name="beach-items/seagull-grey.png" width="255" height="206" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="25" name="beach-items/seagull.png" width="255" height="206" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="26" name="beach-items/star-grey.png" width="218" height="226" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="27" name="beach-items/star.png" width="218" height="226" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="28" name="beach-items/sundance-grey.png" width="129" height="238" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="29" name="beach-items/sundance.png" width="129" height="238" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="30" name="beach-items/sunglasses-grey.png" width="255" height="186" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="31" name="beach-items/sunglasses.png" width="255" height="186" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="32" name="beach-items/trunks-grey.png" width="244" height="186" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="33" name="beach-items/trunks.png" width="244" height="186" pivot_x="0.5" pivot_y="0.5"/>
+    </folder>
+    <entity id="0" name="background">
+        <animation id="0" name="idle" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="0" z_index="3"/>
+                    <object_ref id="4" timeline="4" key="0" z_index="4"/>
+                    <object_ref id="5" timeline="5" key="0" z_index="5"/>
+                    <object_ref id="6" timeline="6" key="0" z_index="6"/>
+                    <object_ref id="7" timeline="7" key="0" z_index="7"/>
+                    <object_ref id="8" timeline="8" key="0" z_index="8"/>
+                    <object_ref id="9" timeline="9" key="0" z_index="9"/>
+                    <object_ref id="10" timeline="10" key="0" z_index="10"/>
+                    <object_ref id="11" timeline="11" key="0" z_index="11"/>
+                    <object_ref id="12" timeline="12" key="0" z_index="12"/>
+                    <object_ref id="13" timeline="13" key="0" z_index="13"/>
+                    <object_ref id="14" timeline="14" key="0" z_index="14"/>
+                    <object_ref id="15" timeline="15" key="0" z_index="15"/>
+                    <object_ref id="16" timeline="16" key="0" z_index="16"/>
+                    <object_ref id="17" timeline="17" key="0" z_index="17"/>
+                    <object_ref id="18" timeline="18" key="0" z_index="18"/>
+                    <object_ref id="19" timeline="19" key="0" z_index="19"/>
+                    <object_ref id="20" timeline="20" key="0" z_index="20"/>
+                    <object_ref id="21" timeline="21" key="0" z_index="21"/>
+                    <object_ref id="22" timeline="22" key="0" z_index="22"/>
+                    <object_ref id="23" timeline="23" key="0" z_index="23"/>
+                    <object_ref id="24" timeline="24" key="0" z_index="24"/>
+                    <object_ref id="25" timeline="25" key="0" z_index="25"/>
+                    <object_ref id="26" timeline="26" key="0" z_index="26"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="beach">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="11.287879" y="-79.19697" angle="0" scale_x="60.166252" scale_y="17.279515"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="bg-beach-up">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-1413.043478" y="418.45162" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="bg-beach-up_000">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-458.120133" y="418.45162" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="bg-beach-up_001">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="500.6129" y="418.45162" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="4" name="bg-beach-up_002">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="1460.215054" y="418.45162" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="5" name="sand">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="-1438.709677" y="-69.258065" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="6" name="sand_000">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="-1719.354839" y="-253.129032" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="7" name="sand_001">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="-1083.870968" y="-262.806452" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="8" name="sand_002">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="-887.096774" y="-156.354839" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="9" name="sand_003">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="-725.806452" y="-314.419355" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="10" name="sand_004">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="-374.193548" y="72.677419" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="11" name="sand_005">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="-41.935484" y="-72.483871" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="12" name="sand_006">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="116.129032" y="-233.774194" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="13" name="sand_007">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="683.870968" y="-285.387097" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="14" name="sand_008">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="893.548387" y="21.064516" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="15" name="sand_009">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="1032.258065" y="-95.064516" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="16" name="sand_010">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="1119.354839" y="79.129032" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="17" name="sand_011">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="1609.677419" y="-269.258065" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="18" name="sand_012">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="1787.096774" y="-172.483871" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="19" name="ship1">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-1718.231566" y="513.345623" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="20" name="ship3">
+                <key id="0" spin="0">
+                    <object folder="0" file="5" x="-1161.290323" y="514.612903" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="21" name="ship4">
+                <key id="0" spin="0">
+                    <object folder="0" file="6" x="203.225806" y="495.258065" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="22" name="ship2">
+                <key id="0" spin="0">
+                    <object folder="0" file="7" x="-235.483871" y="488.806452" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="23" name="ship1_000">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="677.419355" y="517.83871" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="24" name="ship3_000">
+                <key id="0" spin="0">
+                    <object folder="0" file="5" x="1361.290323" y="501.709677" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="25" name="bg-beach-up_003">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-2371.474926" y="418.967552"/>
+                </key>
+            </timeline>
+            <timeline id="26" name="bg-beach-up_004">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="2420.214028" y="418.119637"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+    <entity id="1" name="background_01">
+        <animation id="0" name="idle" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="0" z_index="3"/>
+                    <object_ref id="4" timeline="4" key="0" z_index="4"/>
+                    <object_ref id="5" timeline="5" key="0" z_index="5"/>
+                    <object_ref id="6" timeline="6" key="0" z_index="6"/>
+                    <object_ref id="7" timeline="7" key="0" z_index="7"/>
+                    <object_ref id="8" timeline="8" key="0" z_index="8"/>
+                    <object_ref id="9" timeline="9" key="0" z_index="9"/>
+                    <object_ref id="10" timeline="10" key="0" z_index="10"/>
+                    <object_ref id="11" timeline="11" key="0" z_index="11"/>
+                    <object_ref id="12" timeline="12" key="0" z_index="12"/>
+                    <object_ref id="13" timeline="13" key="0" z_index="13"/>
+                    <object_ref id="14" timeline="14" key="0" z_index="14"/>
+                    <object_ref id="15" timeline="15" key="0" z_index="15"/>
+                    <object_ref id="16" timeline="16" key="0" z_index="16"/>
+                    <object_ref id="17" timeline="17" key="0" z_index="17"/>
+                    <object_ref id="18" timeline="18" key="0" z_index="18"/>
+                    <object_ref id="19" timeline="19" key="0" z_index="19"/>
+                    <object_ref id="20" timeline="20" key="0" z_index="20"/>
+                    <object_ref id="21" timeline="21" key="0" z_index="21"/>
+                    <object_ref id="22" timeline="22" key="0" z_index="22"/>
+                    <object_ref id="23" timeline="23" key="0" z_index="23"/>
+                    <object_ref id="24" timeline="24" key="0" z_index="24"/>
+                    <object_ref id="25" timeline="25" key="0" z_index="25"/>
+                    <object_ref id="26" timeline="26" key="0" z_index="26"/>
+                    <object_ref id="27" timeline="27" key="0" z_index="27"/>
+                    <object_ref id="28" timeline="28" key="0" z_index="28"/>
+                    <object_ref id="29" timeline="29" key="0" z_index="29"/>
+                    <object_ref id="30" timeline="30" key="0" z_index="30"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="beach">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="11.287879" y="52.247474" angle="0" scale_x="60.166252" scale_y="17.279515"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="bg-beach-up">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-1413.043478" y="555.45162" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="bg-beach-up_000">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-458.120133" y="555.45162" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="bg-beach-up_001">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="500.6129" y="555.45162" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="4" name="bg-beach-up_002">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="1460.215054" y="555.45162" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="5" name="sand">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="-1438.709677" y="67.741935" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="6" name="sand_000">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="-1719.354839" y="-116.129032" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="7" name="sand_001">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="-1083.870968" y="-125.806452" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="8" name="sand_002">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="-887.096774" y="-19.354839" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="9" name="sand_003">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="-725.806452" y="-177.419355" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="10" name="sand_004">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="-374.193548" y="209.677419" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="11" name="sand_005">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="-41.935484" y="64.516129" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="12" name="sand_007">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="683.870968" y="-148.387097" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="13" name="sand_008">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="893.548387" y="158.064516" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="14" name="sand_009">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="1032.258065" y="41.935484" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="15" name="sand_010">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="1119.354839" y="216.129032" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="16" name="sand_011">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="1470.78853" y="-143.369176" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="17" name="sand_012">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="1787.096774" y="-35.483871" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="18" name="ship1">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-1667.741935" y="661.290323" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="19" name="ship3">
+                <key id="0" spin="0">
+                    <object folder="0" file="5" x="-1161.290323" y="651.612903" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="20" name="ship4">
+                <key id="0" spin="0">
+                    <object folder="0" file="6" x="203.225806" y="632.258065" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="21" name="ship2">
+                <key id="0" spin="0">
+                    <object folder="0" file="7" x="-235.483871" y="625.806452" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="22" name="ship1_000">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="677.419355" y="654.83871" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="23" name="ship3_000">
+                <key id="0" spin="0">
+                    <object folder="0" file="5" x="1361.290323" y="638.709677" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="24" name="chair" object_type="entity">
+                <key id="0" spin="0">
+                    <object entity="8" animation="0" t="0" x="-1561.111111" y="-125" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="25" name="seagrass" object_type="entity">
+                <key id="0" spin="0">
+                    <object entity="5" animation="0" t="0" x="-952.777778" y="94.444444" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="26" name="sandcastle" object_type="entity">
+                <key id="0" spin="0">
+                    <object entity="6" animation="0" t="0" x="-394.444444" y="-213.888889" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="27" name="lifesaver" object_type="entity">
+                <key id="0" spin="0">
+                    <object entity="7" animation="0" t="0" x="700" y="80.555556" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="28" name="towel" object_type="entity">
+                <key id="0" spin="0">
+                    <object entity="4" animation="0" t="0" x="1158.333333" y="16.666667" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="29" name="seagrass_000" object_type="entity">
+                <key id="0" spin="0">
+                    <object entity="5" animation="0" t="0" x="1730.555556" y="-186.111111" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="30" name="seagrass_001" object_type="entity">
+                <key id="0" spin="0">
+                    <object entity="5" animation="0" t="0" x="197.222222" y="-75" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+    <entity id="2" name="background_02">
+        <animation id="0" name="idle" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="0" z_index="3"/>
+                    <object_ref id="4" timeline="4" key="0" z_index="4"/>
+                    <object_ref id="5" timeline="5" key="0" z_index="5"/>
+                    <object_ref id="6" timeline="6" key="0" z_index="6"/>
+                    <object_ref id="7" timeline="7" key="0" z_index="7"/>
+                    <object_ref id="8" timeline="8" key="0" z_index="8"/>
+                    <object_ref id="9" timeline="9" key="0" z_index="9"/>
+                    <object_ref id="10" timeline="10" key="0" z_index="10"/>
+                    <object_ref id="11" timeline="11" key="0" z_index="11"/>
+                    <object_ref id="12" timeline="12" key="0" z_index="12"/>
+                    <object_ref id="13" timeline="13" key="0" z_index="13"/>
+                    <object_ref id="14" timeline="14" key="0" z_index="14"/>
+                    <object_ref id="15" timeline="15" key="0" z_index="15"/>
+                    <object_ref id="16" timeline="16" key="0" z_index="16"/>
+                    <object_ref id="17" timeline="17" key="0" z_index="17"/>
+                    <object_ref id="18" timeline="18" key="0" z_index="18"/>
+                    <object_ref id="19" timeline="19" key="0" z_index="19"/>
+                    <object_ref id="20" timeline="20" key="0" z_index="20"/>
+                    <object_ref id="21" timeline="21" key="0" z_index="21"/>
+                    <object_ref id="22" timeline="22" key="0" z_index="22"/>
+                    <object_ref id="23" timeline="23" key="0" z_index="23"/>
+                    <object_ref id="24" timeline="24" key="0" z_index="24"/>
+                    <object_ref id="25" timeline="25" key="0" z_index="25"/>
+                    <object_ref id="26" timeline="26" key="0" z_index="26"/>
+                    <object_ref id="27" timeline="27" key="0" z_index="27"/>
+                    <object_ref id="28" timeline="28" key="0" z_index="28"/>
+                    <object_ref id="29" timeline="29" key="0" z_index="29"/>
+                    <object_ref id="30" timeline="30" key="0" z_index="30"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="beach">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="11.287879" y="52.247474" angle="0" scale_x="60.166252" scale_y="17.279515"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="bg-beach-up">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-1413.043478" y="555.45162" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="bg-beach-up_000">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-458.120133" y="555.45162" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="bg-beach-up_001">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="500.6129" y="555.45162" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="4" name="bg-beach-up_002">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="1460.215054" y="555.45162" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="5" name="sand">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="-1438.709677" y="67.741935" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="6" name="sand_000">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="-1719.354839" y="-116.129032" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="7" name="sand_001">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="-1083.870968" y="-125.806452" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="8" name="sand_002">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="-887.096774" y="-19.354839" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="9" name="sand_003">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="-725.806452" y="-177.419355" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="10" name="sand_004">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="-374.193548" y="209.677419" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="11" name="sand_005">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="-41.935484" y="64.516129" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="12" name="sand_007">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="683.870968" y="-148.387097" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="13" name="sand_008">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="893.548387" y="158.064516" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="14" name="sand_009">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="1032.258065" y="41.935484" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="15" name="sand_010">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="1119.354839" y="216.129032" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="16" name="sand_011">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="1609.677419" y="-132.258065" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="17" name="sand_012">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="1787.096774" y="-35.483871" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="18" name="ship1">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-1667.741935" y="661.290323" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="19" name="ship3">
+                <key id="0" spin="0">
+                    <object folder="0" file="5" x="-1161.290323" y="651.612903" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="20" name="ship4">
+                <key id="0" spin="0">
+                    <object folder="0" file="6" x="203.225806" y="632.258065" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="21" name="ship2">
+                <key id="0" spin="0">
+                    <object folder="0" file="7" x="-235.483871" y="625.806452" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="22" name="ship1_000">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="677.419355" y="654.83871" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="23" name="ship3_000">
+                <key id="0" spin="0">
+                    <object folder="0" file="5" x="1361.290323" y="638.709677" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="24" name="chair" object_type="entity">
+                <key id="0" spin="0">
+                    <object entity="8" animation="0" t="0" x="-413.888889" y="-44.444444" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="25" name="seagrass" object_type="entity">
+                <key id="0" spin="0">
+                    <object entity="5" animation="0" t="0" x="-1022.222222" y="-72.222222" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="26" name="lifesaver" object_type="entity">
+                <key id="0" spin="0">
+                    <object entity="7" animation="0" t="0" x="-1541.666667" y="-80.555556" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="27" name="seagrass_000" object_type="entity">
+                <key id="0" spin="0">
+                    <object entity="5" animation="0" t="0" x="1225" y="-213.888889" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="28" name="chair_000" object_type="entity">
+                <key id="0" spin="0">
+                    <object entity="8" animation="0" t="0" x="175" y="-213.888889" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="29" name="chair_001" object_type="entity">
+                <key id="0" spin="0">
+                    <object entity="8" animation="0" t="0" x="752.777778" y="-8.333333" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="30" name="lifesaver_000" object_type="entity">
+                <key id="0" spin="0">
+                    <object entity="7" animation="0" t="0" x="1719.444444" y="-16.666667" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+    <entity id="3" name="background_03">
+        <animation id="0" name="idle" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="0" z_index="3"/>
+                    <object_ref id="4" timeline="4" key="0" z_index="4"/>
+                    <object_ref id="5" timeline="5" key="0" z_index="5"/>
+                    <object_ref id="6" timeline="6" key="0" z_index="6"/>
+                    <object_ref id="7" timeline="7" key="0" z_index="7"/>
+                    <object_ref id="8" timeline="8" key="0" z_index="8"/>
+                    <object_ref id="9" timeline="9" key="0" z_index="9"/>
+                    <object_ref id="10" timeline="10" key="0" z_index="10"/>
+                    <object_ref id="11" timeline="11" key="0" z_index="11"/>
+                    <object_ref id="12" timeline="12" key="0" z_index="12"/>
+                    <object_ref id="13" timeline="13" key="0" z_index="13"/>
+                    <object_ref id="14" timeline="14" key="0" z_index="14"/>
+                    <object_ref id="15" timeline="15" key="0" z_index="15"/>
+                    <object_ref id="16" timeline="16" key="0" z_index="16"/>
+                    <object_ref id="17" timeline="17" key="0" z_index="17"/>
+                    <object_ref id="18" timeline="18" key="0" z_index="18"/>
+                    <object_ref id="19" timeline="19" key="0" z_index="19"/>
+                    <object_ref id="20" timeline="20" key="0" z_index="20"/>
+                    <object_ref id="21" timeline="21" key="0" z_index="21"/>
+                    <object_ref id="22" timeline="22" key="0" z_index="22"/>
+                    <object_ref id="23" timeline="23" key="0" z_index="23"/>
+                    <object_ref id="24" timeline="24" key="0" z_index="24"/>
+                    <object_ref id="25" timeline="25" key="0" z_index="25"/>
+                    <object_ref id="26" timeline="26" key="0" z_index="26"/>
+                    <object_ref id="27" timeline="27" key="0" z_index="27"/>
+                    <object_ref id="28" timeline="28" key="0" z_index="28"/>
+                    <object_ref id="29" timeline="29" key="0" z_index="29"/>
+                    <object_ref id="30" timeline="30" key="0" z_index="30"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="beach">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="11.287879" y="52.247474" angle="0" scale_x="60.166252" scale_y="17.279515"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="bg-beach-up">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-1413.043478" y="555.45162" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="bg-beach-up_000">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-458.120133" y="555.45162" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="bg-beach-up_001">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="500.6129" y="555.45162" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="4" name="bg-beach-up_002">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="1460.215054" y="555.45162" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="5" name="sand">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="-1438.709677" y="67.741935" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="6" name="sand_000">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="-1719.354839" y="-116.129032" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="7" name="sand_001">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="-1083.870968" y="-125.806452" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="8" name="sand_002">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="-887.096774" y="-19.354839" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="9" name="sand_003">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="-725.806452" y="-177.419355" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="10" name="sand_004">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="-374.193548" y="209.677419" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="11" name="sand_005">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="-41.935484" y="64.516129" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="12" name="sand_007">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="683.870968" y="-148.387097" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="13" name="sand_008">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="893.548387" y="158.064516" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="14" name="sand_009">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="1032.258065" y="41.935484" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="15" name="sand_010">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="1119.354839" y="216.129032" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="16" name="sand_011">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="1609.677419" y="-132.258065" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="17" name="sand_012">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="1787.096774" y="-35.483871" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="18" name="ship1">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-1667.741935" y="661.290323" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="19" name="ship3">
+                <key id="0" spin="0">
+                    <object folder="0" file="5" x="-1161.290323" y="651.612903" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="20" name="ship4">
+                <key id="0" spin="0">
+                    <object folder="0" file="6" x="203.225806" y="632.258065" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="21" name="ship2">
+                <key id="0" spin="0">
+                    <object folder="0" file="7" x="-235.483871" y="625.806452" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="22" name="ship1_000">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="677.419355" y="654.83871" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="23" name="ship3_000">
+                <key id="0" spin="0">
+                    <object folder="0" file="5" x="1361.290323" y="638.709677" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="24" name="chair" object_type="entity">
+                <key id="0" spin="0">
+                    <object entity="8" animation="0" t="0" x="-1561.111111" y="-111.111111" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="25" name="towel" object_type="entity">
+                <key id="0" spin="0">
+                    <object entity="4" animation="0" t="0" x="-880.555556" y="-33.333333" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="26" name="sandcastle" object_type="entity">
+                <key id="0" spin="0">
+                    <object entity="6" animation="0" t="0" x="880.555556" y="-133.333333" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="27" name="seagrass" object_type="entity">
+                <key id="0" spin="0">
+                    <object entity="5" animation="0" t="0" x="-283.333333" y="-125" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="28" name="chair_000" object_type="entity">
+                <key id="0" spin="0">
+                    <object entity="8" animation="0" t="0" x="227.777778" y="-5.555556" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="29" name="lifesaver" object_type="entity">
+                <key id="0" spin="0">
+                    <object entity="7" animation="0" t="0" x="1747.222222" y="-86.111111" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="30" name="seagrass_000" object_type="entity">
+                <key id="0" spin="0">
+                    <object entity="5" animation="0" t="0" x="1311.111111" y="72.222222" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+    <entity id="4" name="towel">
+        <animation id="0" name="idle" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="towel">
+                <key id="0" spin="0">
+                    <object folder="0" file="8" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+    <entity id="5" name="seagrass">
+        <animation id="0" name="idle" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="seagrass">
+                <key id="0" spin="0">
+                    <object folder="0" file="9" x="1.279199" y="-1.334816" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+    <entity id="6" name="sandcastle">
+        <animation id="0" name="idle" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="sandcastle">
+                <key id="0" spin="0">
+                    <object folder="0" file="10" x="1.724138" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+    <entity id="7" name="lifesaver">
+        <animation id="0" name="idle" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="lifesaver">
+                <key id="0" spin="0">
+                    <object folder="0" file="11" x="6.896552" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+    <entity id="8" name="chair">
+        <animation id="0" name="idle" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="chair">
+                <key id="0" spin="0">
+                    <object folder="0" file="3" x="5.172414" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+    <entity id="9" name="alge">
+        <animation id="0" name="empty" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="alge-grey">
+                <key id="0" spin="0">
+                    <object folder="1" file="0" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="slotted" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="alge">
+                <key id="0" spin="0">
+                    <object folder="1" file="1" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+    <entity id="10" name="boat">
+        <animation id="0" name="empty" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="boat-grey">
+                <key id="0" spin="0">
+                    <object folder="1" file="2" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="slotted" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="boat">
+                <key id="0" spin="0">
+                    <object folder="1" file="3" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+    <entity id="11" name="bucket">
+        <animation id="0" name="empty" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="bucket-grey">
+                <key id="0" spin="0">
+                    <object folder="1" file="4" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="slotted" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="bucket">
+                <key id="0" spin="0">
+                    <object folder="1" file="5" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+    <entity id="12" name="clam">
+        <animation id="0" name="empty" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="clam-grey">
+                <key id="0" spin="0">
+                    <object folder="1" file="6" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="slotted" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="clam">
+                <key id="0" spin="0">
+                    <object folder="1" file="7" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+    <entity id="13" name="crab">
+        <animation id="0" name="empty" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="crab-grey">
+                <key id="0" spin="0">
+                    <object folder="1" file="8" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="slotted" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="crab">
+                <key id="0" spin="0">
+                    <object folder="1" file="9" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+    <entity id="14" name="divingset">
+        <animation id="0" name="empty" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="divingset-grey">
+                <key id="0" spin="0">
+                    <object folder="1" file="10" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="slotted" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="divingset">
+                <key id="0" spin="0">
+                    <object folder="1" file="11" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+    <entity id="15" name="fish2">
+        <animation id="0" name="empty" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="fish2-grey">
+                <key id="0" spin="0">
+                    <object folder="1" file="14" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="slotted" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="fish2">
+                <key id="0" spin="0">
+                    <object folder="1" file="15" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+    <entity id="16" name="fishing-boat">
+        <animation id="0" name="empty" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="fishing-ship-grey">
+                <key id="0" spin="0">
+                    <object folder="1" file="16" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="slotted" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="fishing-ship">
+                <key id="0" spin="0">
+                    <object folder="1" file="17" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+    <entity id="17" name="hat">
+        <animation id="0" name="empty" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="hat-grey">
+                <key id="0" spin="0">
+                    <object folder="1" file="18" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="slotted" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="hat">
+                <key id="0" spin="0">
+                    <object folder="1" file="19" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+    <entity id="18" name="icecream">
+        <animation id="0" name="empty" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="ice-grey">
+                <key id="0" spin="0">
+                    <object folder="1" file="20" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="slotted" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="ice">
+                <key id="0" spin="0">
+                    <object folder="1" file="21" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+    <entity id="19" name="jellyfish">
+        <animation id="0" name="empty" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="jelly-grey">
+                <key id="0" spin="0">
+                    <object folder="1" file="22" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="slotted" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="jelly">
+                <key id="0" spin="0">
+                    <object folder="1" file="23" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+    <entity id="20" name="seagull">
+        <animation id="0" name="empty" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="seagull-grey">
+                <key id="0" spin="0">
+                    <object folder="1" file="24" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="slotted" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="seagull">
+                <key id="0" spin="0">
+                    <object folder="1" file="25" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+    <entity id="21" name="starfish">
+        <animation id="0" name="empty" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="star-grey">
+                <key id="0" spin="0">
+                    <object folder="1" file="26" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="slotted" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="star">
+                <key id="0" spin="0">
+                    <object folder="1" file="27" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+    <entity id="22" name="trunks">
+        <animation id="0" name="empty" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="trunks-grey">
+                <key id="0" spin="0">
+                    <object folder="1" file="32" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="slotted" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="trunks">
+                <key id="0" spin="0">
+                    <object folder="1" file="33" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+    <entity id="23" name="fish">
+        <animation id="0" name="empty" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="fish1-grey">
+                <key id="0" spin="0">
+                    <object folder="1" file="12" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="slotted" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="fish1">
+                <key id="0" spin="0">
+                    <object folder="1" file="13" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>

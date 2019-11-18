@@ -1,0 +1,73 @@
+{
+  "clearColor": "#98E4F9",
+  "entities": [
+    {
+      "name": "camera",
+      "components": [
+        { "OrthoCamera": { "zoom": 1.0 } },
+        "AutoViewport",
+        {
+            "Position": {
+                "x": 0, "y": 0
+            }
+        }
+      ]
+    },
+    {
+      "name": "logo",
+      "components": [
+        { "Position": { "x": 0, "y": -280 } },
+        { "SpriterModel": { "scml": "menu.scml", "atlas": "menu-atlas.json", "entityName": "logo" } },
+        { "SpriterAnimation" : { "name": "idle" } }
+      ]
+    },
+    {
+      "name": "banner",
+      "components": [
+        { "Position": { "x": 0, "y": 200 } },
+        { "SpriterModel": { "scml": "menu.scml", "atlas": "menu-atlas.json", "entityName": "banner" } },
+        { "SpriterAnimation" : { "name": "idle" } }
+      ]
+    },
+    {
+      "name": "beach-button",
+      "components": [
+        { "Position": { "x": 540, "y": 200 } },
+        { "SpriterModel": { "scml": "menu.scml", "atlas": "menu-atlas.json", "entityName": "beach" } },
+        { "SpriterAnimation" : { "name": "idle" } },
+        "SpriterAABBQuery",
+        { "MenuButton": { "actions": [{ "LoadRoom": { "id": "beach-room-%nr%.json" } }] } }
+      ]
+    },
+    {
+      "name": "park-button",
+      "components": [
+        { "Position": { "x": -540, "y": 200 } },
+        { "SpriterModel": { "scml": "menu.scml", "atlas": "menu-atlas.json", "entityName": "park" } },
+        { "SpriterAnimation" : { "name": "idle" } },
+        "SpriterAABBQuery",
+        { "MenuButton": { "actions": [{ "LoadRoom": { "id": "park-room-%nr%.json" } }] } }
+      ]
+    },
+    {
+      "name": "city-button",
+      "components": [
+        { "Position": { "x": 0, "y": 200 } },
+        { "SpriterModel": { "scml": "menu.scml", "atlas": "menu-atlas.json", "entityName": "city" } },
+        { "SpriterAnimation" : { "name": "idle" } },
+        "SpriterAABBQuery",
+        { "MenuButton": { "actions": [{ "LoadRoom": { "id": "city-room-%nr%.json" } }] } }
+      ]
+    },
+    {
+      "name": "credits-button",
+      "components": [
+        { "Position": { "x": -600, "y": -450 } },
+        { "SpriterModel": { "scml": "menu.scml", "atlas": "menu-atlas.json", "entityName": "credits" } },
+        { "SpriterAnimation" : { "name": "idle" } },
+        "SpriterAABBQuery",
+        { "MenuButton": { "actions": [{ "LoadGui": { "id": "credits-gui.json" } }] } }
+      ]
+    }
+  ]
+}

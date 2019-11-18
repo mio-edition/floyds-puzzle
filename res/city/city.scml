@@ -1,0 +1,1813 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r11">
+    <folder id="0" name="city-tiles">
+        <file id="0" name="city-tiles/boxes.png" width="394" height="334" pivot_x="0.5" pivot_y="0"/>
+        <file id="1" name="city-tiles/sign.png" width="189" height="220" pivot_x="0.5" pivot_y="0"/>
+        <file id="2" name="city-tiles/ampel.png" width="117" height="474" pivot_x="0.5" pivot_y="0"/>
+        <file id="3" name="city-tiles/city-bg-up.png" width="960" height="256" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="4" name="city-tiles/cobble.png" width="37" height="35" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="5" name="city-tiles/flowers.png" width="263" height="254" pivot_x="0.5" pivot_y="0"/>
+        <file id="6" name="city-tiles/fountain.png" width="291" height="376" pivot_x="0.5" pivot_y="0"/>
+        <file id="7" name="city-tiles/hydrant.png" width="164" height="274" pivot_x="0.5" pivot_y="0"/>
+        <file id="8" name="city-tiles/tree.png" width="353" height="437" pivot_x="0.5" pivot_y="0"/>
+        <file id="9" name="city-tiles/wastebin.png" width="249" height="372" pivot_x="0.5" pivot_y="0"/>
+        <file id="10" name="city-tiles/city-bg-ground.png" width="32" height="32" pivot_x="0.5" pivot_y="0.5"/>
+    </folder>
+    <folder id="1" name="city-items">
+        <file id="0" name="city-items/ambulance-grey.png" width="244" height="182" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="1" name="city-items/ambulance.png" width="244" height="182" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="2" name="city-items/bananas-gey.png" width="206" height="217" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="3" name="city-items/bananas.png" width="206" height="217" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="4" name="city-items/betonmischer-grey.png" width="246" height="206" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="5" name="city-items/betonmischer.png" width="246" height="206" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="6" name="city-items/brokkoli-grey.png" width="233" height="232" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="7" name="city-items/brokkoli.png" width="233" height="232" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="8" name="city-items/bun-grey.png" width="232" height="179" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="9" name="city-items/bun.png" width="232" height="179" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="10" name="city-items/car-grey.png" width="247" height="148" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="11" name="city-items/car.png" width="247" height="148" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="12" name="city-items/carrots-grey.png" width="227" height="239" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="13" name="city-items/carrots.png" width="227" height="239" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="14" name="city-items/cat-grey.png" width="248" height="224" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="15" name="city-items/cat.png" width="248" height="224" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="16" name="city-items/croissant-grey.png" width="234" height="191" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="17" name="city-items/croissant.png" width="234" height="191" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="18" name="city-items/cupcake-grey.png" width="188" height="235" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="19" name="city-items/cupcake.png" width="188" height="235" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="20" name="city-items/dove-grey.png" width="234" height="231" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="21" name="city-items/dove.png" width="234" height="231" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="22" name="city-items/mouse-grey.png" width="225" height="226" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="23" name="city-items/mouse.png" width="225" height="226" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="24" name="city-items/pear-grey.png" width="179" height="232" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="25" name="city-items/pear.png" width="179" height="232" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="26" name="city-items/poop-grey.png" width="171" height="171" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="27" name="city-items/poop.png" width="171" height="171" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="28" name="city-items/sausages-grey.png" width="220" height="217" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="29" name="city-items/sausages.png" width="220" height="217" pivot_x="0.5" pivot_y="0.5"/>
+    </folder>
+    <tag_list>
+        <i id="0" name="ItemContainer"/>
+    </tag_list>
+    <entity id="0" name="traffic-light">
+        <animation id="0" name="idle" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="ampel">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+    <entity id="1" name="boxes">
+        <animation id="0" name="idle" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="boxes">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+    <entity id="2" name="flowers">
+        <animation id="0" name="idle" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="flowers">
+                <key id="0" spin="0">
+                    <object folder="0" file="5" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+    <entity id="3" name="fountain">
+        <animation id="0" name="idle" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="fountain">
+                <key id="0" spin="0">
+                    <object folder="0" file="6" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+    <entity id="4" name="hydrant">
+        <animation id="0" name="idle" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="hydrant">
+                <key id="0" spin="0">
+                    <object folder="0" file="7" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+    <entity id="5" name="sign">
+        <animation id="0" name="idle" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="sign">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+    <entity id="6" name="tree">
+        <animation id="0" name="idle" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="tree">
+                <key id="0" spin="0">
+                    <object folder="0" file="8" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+    <entity id="7" name="wastebin">
+        <animation id="0" name="idle" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="wastebin">
+                <key id="0" spin="0">
+                    <object folder="0" file="9" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+    <entity id="8" name="ambulance-item">
+        <animation id="0" name="empty" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="ambulance-grey">
+                <key id="0" spin="0">
+                    <object folder="1" file="0" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="slotted" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="ambulance">
+                <key id="0" spin="0">
+                    <object folder="1" file="1" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+    <entity id="9" name="bananas-item">
+        <animation id="0" name="empty" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="bananas-grey">
+                <key id="0" spin="0">
+                    <object folder="1" file="2" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="slotted" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="bananas">
+                <key id="0" spin="0">
+                    <object folder="1" file="3" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+    <entity id="10" name="betonmischer-item">
+        <animation id="0" name="empty" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="betonmischer-grey">
+                <key id="0" spin="0">
+                    <object folder="1" file="4" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="slotted" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="betonmischer">
+                <key id="0" spin="0">
+                    <object folder="1" file="5" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+    <entity id="11" name="brokkoli-item">
+        <animation id="0" name="empty" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="brokkoli-grey">
+                <key id="0" spin="0">
+                    <object folder="1" file="6" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="slotted" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="brokkoli">
+                <key id="0" spin="0">
+                    <object folder="1" file="7" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+    <entity id="12" name="bun-item">
+        <animation id="0" name="empty" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="bun-grey">
+                <key id="0" spin="0">
+                    <object folder="1" file="8" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="slotted" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="bun">
+                <key id="0" spin="0">
+                    <object folder="1" file="9" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+    <entity id="13" name="car-item">
+        <animation id="0" name="empty" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="car-grey">
+                <key id="0" spin="0">
+                    <object folder="1" file="10" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="slotted" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="car">
+                <key id="0" spin="0">
+                    <object folder="1" file="11" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+    <entity id="14" name="carrots-item">
+        <animation id="0" name="empty" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="carrots-grey">
+                <key id="0" spin="0">
+                    <object folder="1" file="12" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="slotted" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="carrots">
+                <key id="0" spin="0">
+                    <object folder="1" file="13" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+    <entity id="15" name="cat-item">
+        <animation id="0" name="empty" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="cat-grey">
+                <key id="0" spin="0">
+                    <object folder="1" file="14" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="slotted" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="cat">
+                <key id="0" spin="0">
+                    <object folder="1" file="15" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+    <entity id="16" name="croissant-item">
+        <animation id="0" name="empty" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="croissant-grey">
+                <key id="0" spin="0">
+                    <object folder="1" file="16" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="slotted" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="croissant">
+                <key id="0" spin="0">
+                    <object folder="1" file="17" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+    <entity id="17" name="cupcake-item">
+        <animation id="0" name="empty" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="cupcake-grey">
+                <key id="0" spin="0">
+                    <object folder="1" file="18" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="slotted" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="cupcake">
+                <key id="0" spin="0">
+                    <object folder="1" file="19" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+    <entity id="18" name="dove-item">
+        <animation id="0" name="empty" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="dove-grey">
+                <key id="0" spin="0">
+                    <object folder="1" file="20" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="slotted" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="dove">
+                <key id="0" spin="0">
+                    <object folder="1" file="21" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+    <entity id="19" name="mouse-item">
+        <animation id="0" name="empty" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="mouse-grey">
+                <key id="0" spin="0">
+                    <object folder="1" file="22" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="slotted" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="mouse">
+                <key id="0" spin="0">
+                    <object folder="1" file="23" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+    <entity id="20" name="pear-item">
+        <animation id="0" name="empty" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="pear-grey">
+                <key id="0" spin="0">
+                    <object folder="1" file="24" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="slotted" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="pear">
+                <key id="0" spin="0">
+                    <object folder="1" file="25" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+    <entity id="21" name="poop-item">
+        <animation id="0" name="empty" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="poop-grey">
+                <key id="0" spin="0">
+                    <object folder="1" file="26" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="slotted" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="poop">
+                <key id="0" spin="0">
+                    <object folder="1" file="27" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+    <entity id="22" name="sausages-item">
+        <animation id="0" name="empty" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="sausages-grey">
+                <key id="0" spin="0">
+                    <object folder="1" file="28" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="slotted" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="sausages">
+                <key id="0" spin="0">
+                    <object folder="1" file="29" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+    <entity id="23" name="background">
+        <animation id="0" name="idle" length="1000" interval="100">
+            <gline pos="-540"/>
+            <gline pos="-960" v="1"/>
+            <gline pos="540"/>
+            <gline pos="960" v="1"/>
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="0" z_index="3"/>
+                    <object_ref id="4" timeline="4" key="0" z_index="4"/>
+                    <object_ref id="5" timeline="5" key="0" z_index="5"/>
+                    <object_ref id="6" timeline="6" key="0" z_index="6"/>
+                    <object_ref id="7" timeline="7" key="0" z_index="7"/>
+                    <object_ref id="8" timeline="8" key="0" z_index="8"/>
+                    <object_ref id="9" timeline="9" key="0" z_index="9"/>
+                    <object_ref id="10" timeline="10" key="0" z_index="10"/>
+                    <object_ref id="11" timeline="11" key="0" z_index="11"/>
+                    <object_ref id="12" timeline="12" key="0" z_index="12"/>
+                    <object_ref id="13" timeline="13" key="0" z_index="13"/>
+                    <object_ref id="14" timeline="14" key="0" z_index="14"/>
+                    <object_ref id="15" timeline="15" key="0" z_index="15"/>
+                    <object_ref id="16" timeline="16" key="0" z_index="16"/>
+                    <object_ref id="17" timeline="17" key="0" z_index="17"/>
+                    <object_ref id="18" timeline="18" key="0" z_index="18"/>
+                    <object_ref id="19" timeline="19" key="0" z_index="19"/>
+                    <object_ref id="20" timeline="20" key="0" z_index="20"/>
+                    <object_ref id="21" timeline="21" key="0" z_index="21"/>
+                    <object_ref id="22" timeline="22" key="0" z_index="22"/>
+                    <object_ref id="23" timeline="23" key="0" z_index="23"/>
+                    <object_ref id="24" timeline="24" key="0" z_index="24"/>
+                    <object_ref id="25" timeline="25" key="0" z_index="25"/>
+                    <object_ref id="26" timeline="26" key="0" z_index="26"/>
+                    <object_ref id="27" timeline="27" key="0" z_index="27"/>
+                    <object_ref id="28" timeline="28" key="0" z_index="28"/>
+                    <object_ref id="29" timeline="29" key="0" z_index="29"/>
+                    <object_ref id="30" timeline="30" key="0" z_index="30"/>
+                    <object_ref id="31" timeline="31" key="0" z_index="31"/>
+                    <object_ref id="32" timeline="32" key="0" z_index="32"/>
+                    <object_ref id="33" timeline="33" key="0" z_index="33"/>
+                    <object_ref id="34" timeline="34" key="0" z_index="34"/>
+                    <object_ref id="35" timeline="35" key="0" z_index="35"/>
+                    <object_ref id="36" timeline="36" key="0" z_index="36"/>
+                    <object_ref id="37" timeline="37" key="0" z_index="37"/>
+                    <object_ref id="38" timeline="38" key="0" z_index="38"/>
+                    <object_ref id="39" timeline="39" key="0" z_index="39"/>
+                    <object_ref id="40" timeline="40" key="0" z_index="40"/>
+                    <object_ref id="41" timeline="41" key="0" z_index="41"/>
+                    <object_ref id="42" timeline="42" key="0" z_index="42"/>
+                    <object_ref id="43" timeline="43" key="0" z_index="43"/>
+                    <object_ref id="44" timeline="44" key="0" z_index="44"/>
+                    <object_ref id="45" timeline="45" key="0" z_index="45"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="city-bg-up">
+                <key id="0" spin="0">
+                    <object folder="0" file="3" x="-1405.026455" y="425.592593" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="city-bg-up_000">
+                <key id="0" spin="0">
+                    <object folder="0" file="3" x="-445.026455" y="425.592593" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="cobble">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-1805.026455" y="-40.338441" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="cobble_000">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-1821.053653" y="-82.203424" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="4" name="cobble_001">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-1777.391681" y="-77.978072" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="5" name="cobble_002">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-1736.01237" y="-61.562337" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="6" name="cobble_003">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-1476.857441" y="59.564424" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="7" name="cobble_004">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-1074.04054" y="7.451748" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="8" name="cobble_005">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-1037.774178" y="33.858954" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="9" name="cobble_006">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-1029.761437" y="-3.467478" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="10" name="cobble_007">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-995.839176" y="33.988353" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="11" name="cobble_008">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-989.125395" y="-3.467478" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="12" name="cobble_009">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-773.653906" y="-169.074074" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="13" name="cobble_010">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-739.11187" y="-141.639209" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="14" name="cobble_011">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-486.931217" y="-185.26455" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="15" name="cobble_012">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-449.78836" y="-157.645502" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="16" name="cobble_013">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-443.597884" y="-195.74074" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="17" name="cobble_014">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-343.121693" y="40.449736" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="18" name="cobble_015">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-300.26455" y="50.925926" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="19" name="cobble_016">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-305.978836" y="9.973545" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="20" name="cobble_017">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-157.407407" y="111.878307" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="21" name="cobble_018">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-115.502645" y="114.73545" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="22" name="city-bg-up_001">
+                <key id="0" spin="0">
+                    <object folder="0" file="3" x="514.973545" y="425.592593" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="23" name="city-bg-up_002">
+                <key id="0" spin="0">
+                    <object folder="0" file="3" x="1474.973545" y="425.592593" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="24" name="cobble_020">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="96.875" y="-31.25" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="25" name="cobble_022">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="225" y="118.75" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="26" name="cobble_024">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="276.666667" y="115" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="27" name="cobble_025">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="321.666667" y="31.666667" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="28" name="cobble_026">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="465" y="-183.333333" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="29" name="cobble_028">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="826.666667" y="75" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="30" name="cobble_029">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="790" y="114" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="31" name="cobble_030">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="836.666667" y="116.666667" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="32" name="cobble_031">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="991.666667" y="26.666667" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="33" name="cobble_032">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="1038.333333" y="1.666667" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="34" name="cobble_033">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="1230" y="63.333333" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="35" name="cobble_034">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="1248.333333" y="-153.333333" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="36" name="cobble_035">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="1288.333333" y="-185" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="37" name="cobble_036">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="1328.333333" y="-148.333333" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="38" name="cobble_037">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="1580" y="146.666667" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="39" name="cobble_038">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="1763.333333" y="-35" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="40" name="cobble_040">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="1743.333333" y="-71.666667" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="41" name="cobble_019">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-1285.714286" y="-190.47619" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="42" name="cobble_021">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="778.571429" y="76.190476" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="43" name="cobble_023">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="880.952381" y="97.619048" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="44" name="city-bg-up_003">
+                <key id="0" spin="0">
+                    <object folder="0" file="3" x="2432.115385" y="425.519231"/>
+                </key>
+            </timeline>
+            <timeline id="45" name="city-bg-up_004">
+                <key id="0" spin="0">
+                    <object folder="0" file="3" x="-2361.904762" y="425.666667"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+    <entity id="24" name="background_03">
+        <animation id="0" name="idle" length="1000" interval="100">
+            <gline pos="-540"/>
+            <gline pos="-960" v="1"/>
+            <gline pos="540"/>
+            <gline pos="960" v="1"/>
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="2" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="1" key="0" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="0" z_index="3"/>
+                    <object_ref id="4" timeline="4" key="0" z_index="4"/>
+                    <object_ref id="5" timeline="5" key="0" z_index="5"/>
+                    <object_ref id="6" timeline="6" key="0" z_index="6"/>
+                    <object_ref id="7" timeline="7" key="0" z_index="7"/>
+                    <object_ref id="8" timeline="8" key="0" z_index="8"/>
+                    <object_ref id="9" timeline="9" key="0" z_index="9"/>
+                    <object_ref id="10" timeline="10" key="0" z_index="10"/>
+                    <object_ref id="11" timeline="11" key="0" z_index="11"/>
+                    <object_ref id="12" timeline="12" key="0" z_index="12"/>
+                    <object_ref id="13" timeline="13" key="0" z_index="13"/>
+                    <object_ref id="14" timeline="14" key="0" z_index="14"/>
+                    <object_ref id="15" timeline="15" key="0" z_index="15"/>
+                    <object_ref id="16" timeline="16" key="0" z_index="16"/>
+                    <object_ref id="17" timeline="17" key="0" z_index="17"/>
+                    <object_ref id="18" timeline="18" key="0" z_index="18"/>
+                    <object_ref id="19" timeline="19" key="0" z_index="19"/>
+                    <object_ref id="20" timeline="20" key="0" z_index="20"/>
+                    <object_ref id="21" timeline="21" key="0" z_index="21"/>
+                    <object_ref id="22" timeline="22" key="0" z_index="22"/>
+                    <object_ref id="23" timeline="23" key="0" z_index="23"/>
+                    <object_ref id="24" timeline="24" key="0" z_index="24"/>
+                    <object_ref id="25" timeline="25" key="0" z_index="25"/>
+                    <object_ref id="26" timeline="26" key="0" z_index="26"/>
+                    <object_ref id="27" timeline="27" key="0" z_index="27"/>
+                    <object_ref id="28" timeline="28" key="0" z_index="28"/>
+                    <object_ref id="29" timeline="29" key="0" z_index="29"/>
+                    <object_ref id="30" timeline="30" key="0" z_index="30"/>
+                    <object_ref id="31" timeline="31" key="0" z_index="31"/>
+                    <object_ref id="32" timeline="32" key="0" z_index="32"/>
+                    <object_ref id="33" timeline="33" key="0" z_index="33"/>
+                    <object_ref id="34" timeline="34" key="0" z_index="34"/>
+                    <object_ref id="35" timeline="35" key="0" z_index="35"/>
+                    <object_ref id="36" timeline="36" key="0" z_index="36"/>
+                    <object_ref id="37" timeline="37" key="0" z_index="37"/>
+                    <object_ref id="38" timeline="38" key="0" z_index="38"/>
+                    <object_ref id="39" timeline="39" key="0" z_index="39"/>
+                    <object_ref id="40" timeline="40" key="0" z_index="40"/>
+                    <object_ref id="41" timeline="41" key="0" z_index="41"/>
+                    <object_ref id="42" timeline="42" key="0" z_index="42"/>
+                    <object_ref id="43" timeline="43" key="0" z_index="43"/>
+                    <object_ref id="44" timeline="44" key="0" z_index="44"/>
+                    <object_ref id="45" timeline="45" key="0" z_index="45"/>
+                    <object_ref id="46" timeline="46" key="0" z_index="46"/>
+                    <object_ref id="47" timeline="47" key="0" z_index="47"/>
+                    <object_ref id="48" timeline="48" key="0" z_index="48"/>
+                    <object_ref id="49" timeline="49" key="0" z_index="49"/>
+                    <object_ref id="50" timeline="50" key="0" z_index="50"/>
+                    <object_ref id="51" timeline="51" key="0" z_index="51"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="city-bg-up">
+                <key id="0" spin="0">
+                    <object folder="0" file="3" x="-1405.026455" y="425.592593" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="city-bg-up_000">
+                <key id="0" spin="0">
+                    <object folder="0" file="3" x="-445.026455" y="425.592593" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="city-bg-ground">
+                <key id="0" spin="0">
+                    <object folder="0" file="10" x="-11.205911" y="-114.111111" angle="0" scale_x="118.634894" scale_y="27.914696"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="cobble">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-1805.026455" y="-40.338441" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="4" name="cobble_000">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-1821.053653" y="-82.203424" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="5" name="cobble_001">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-1777.391681" y="-77.978072" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="6" name="cobble_002">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-1736.01237" y="-61.562337" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="7" name="cobble_003">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-1476.857441" y="59.564424" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="8" name="cobble_004">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-1074.04054" y="7.451748" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="9" name="cobble_005">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-1037.774178" y="33.858954" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="10" name="cobble_006">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-1029.761437" y="-3.467478" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="11" name="cobble_007">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-995.839176" y="33.988353" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="12" name="cobble_008">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-989.125395" y="-3.467478" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="13" name="cobble_009">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-773.653906" y="-169.074074" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="14" name="cobble_010">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-739.11187" y="-141.639209" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="15" name="cobble_011">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-486.931217" y="-185.26455" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="16" name="cobble_012">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-449.78836" y="-157.645502" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="17" name="cobble_013">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-443.597884" y="-195.74074" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="18" name="cobble_014">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-343.121693" y="40.449736" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="19" name="cobble_015">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-300.26455" y="50.925926" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="20" name="cobble_016">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-305.978836" y="9.973545" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="21" name="cobble_017">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-157.407407" y="111.878307" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="22" name="cobble_018">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-115.502645" y="114.73545" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="23" name="city-bg-up_001">
+                <key id="0" spin="0">
+                    <object folder="0" file="3" x="514.973545" y="425.592593" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="24" name="city-bg-up_002">
+                <key id="0" spin="0">
+                    <object folder="0" file="3" x="1474.973545" y="425.592593" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="25" name="cobble_020">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="96.875" y="-31.25" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="26" name="cobble_022">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="225" y="118.75" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="27" name="cobble_024">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="276.666667" y="115" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="28" name="cobble_025">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="321.666667" y="31.666667" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="29" name="cobble_026">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="465" y="-183.333333" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="30" name="cobble_028">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="826.666667" y="75" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="31" name="cobble_029">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="790" y="114" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="32" name="cobble_030">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="836.666667" y="116.666667" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="33" name="cobble_031">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="991.666667" y="26.666667" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="34" name="cobble_032">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="1038.333333" y="1.666667" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="35" name="cobble_033">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="1230" y="63.333333" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="36" name="cobble_034">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="1248.333333" y="-153.333333" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="37" name="cobble_035">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="1288.333333" y="-185" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="38" name="cobble_036">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="1328.333333" y="-148.333333" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="39" name="cobble_037">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="1580" y="146.666667" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="40" name="cobble_038">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="1763.333333" y="-35" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="41" name="cobble_040">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="1743.333333" y="-71.666667" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="42" name="cobble_019">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-1285.714286" y="-190.47619" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="43" name="cobble_021">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="778.571429" y="76.190476" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="44" name="cobble_023">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="880.952381" y="97.619048" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="45" name="traffic-light" object_type="entity">
+                <key id="0" spin="0">
+                    <object entity="0" animation="0" t="0" x="-1602.631579" y="-73.684211" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="46" name="boxes" object_type="entity">
+                <key id="0" spin="0">
+                    <object entity="1" animation="0" t="0" x="-1097.368421" y="-205.263158" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="47" name="flowers" object_type="entity">
+                <key id="0" spin="0">
+                    <object entity="2" animation="0" t="0" x="-478.947368" y="-178.947368" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="48" name="fountain" object_type="entity">
+                <key id="0" spin="0">
+                    <object entity="3" animation="0" t="0" x="484.210526" y="-173.684211" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="49" name="sign" object_type="entity">
+                <key id="0" spin="0">
+                    <object entity="5" animation="0" t="0" x="2.631579" y="18.421053" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="50" name="tree" object_type="entity">
+                <key id="0" spin="0">
+                    <object entity="6" animation="0" t="0" x="1107.894737" y="-81.578947" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="51" name="wastebin" object_type="entity">
+                <key id="0" spin="0">
+                    <object entity="7" animation="0" t="0" x="1692.105263" y="-189.473684" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+    <entity id="25" name="background_02">
+        <animation id="0" name="idle" length="1000" interval="100">
+            <gline pos="-540"/>
+            <gline pos="-960" v="1"/>
+            <gline pos="540"/>
+            <gline pos="960" v="1"/>
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="2" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="1" key="0" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="0" z_index="3"/>
+                    <object_ref id="4" timeline="4" key="0" z_index="4"/>
+                    <object_ref id="5" timeline="5" key="0" z_index="5"/>
+                    <object_ref id="6" timeline="6" key="0" z_index="6"/>
+                    <object_ref id="7" timeline="7" key="0" z_index="7"/>
+                    <object_ref id="8" timeline="8" key="0" z_index="8"/>
+                    <object_ref id="9" timeline="9" key="0" z_index="9"/>
+                    <object_ref id="10" timeline="10" key="0" z_index="10"/>
+                    <object_ref id="11" timeline="11" key="0" z_index="11"/>
+                    <object_ref id="12" timeline="12" key="0" z_index="12"/>
+                    <object_ref id="13" timeline="13" key="0" z_index="13"/>
+                    <object_ref id="14" timeline="14" key="0" z_index="14"/>
+                    <object_ref id="15" timeline="15" key="0" z_index="15"/>
+                    <object_ref id="16" timeline="16" key="0" z_index="16"/>
+                    <object_ref id="17" timeline="17" key="0" z_index="17"/>
+                    <object_ref id="18" timeline="18" key="0" z_index="18"/>
+                    <object_ref id="19" timeline="19" key="0" z_index="19"/>
+                    <object_ref id="20" timeline="20" key="0" z_index="20"/>
+                    <object_ref id="21" timeline="21" key="0" z_index="21"/>
+                    <object_ref id="22" timeline="22" key="0" z_index="22"/>
+                    <object_ref id="23" timeline="23" key="0" z_index="23"/>
+                    <object_ref id="24" timeline="24" key="0" z_index="24"/>
+                    <object_ref id="25" timeline="25" key="0" z_index="25"/>
+                    <object_ref id="26" timeline="26" key="0" z_index="26"/>
+                    <object_ref id="27" timeline="27" key="0" z_index="27"/>
+                    <object_ref id="28" timeline="28" key="0" z_index="28"/>
+                    <object_ref id="29" timeline="29" key="0" z_index="29"/>
+                    <object_ref id="30" timeline="30" key="0" z_index="30"/>
+                    <object_ref id="31" timeline="31" key="0" z_index="31"/>
+                    <object_ref id="32" timeline="32" key="0" z_index="32"/>
+                    <object_ref id="33" timeline="33" key="0" z_index="33"/>
+                    <object_ref id="34" timeline="34" key="0" z_index="34"/>
+                    <object_ref id="35" timeline="35" key="0" z_index="35"/>
+                    <object_ref id="36" timeline="36" key="0" z_index="36"/>
+                    <object_ref id="37" timeline="37" key="0" z_index="37"/>
+                    <object_ref id="38" timeline="38" key="0" z_index="38"/>
+                    <object_ref id="39" timeline="39" key="0" z_index="39"/>
+                    <object_ref id="40" timeline="40" key="0" z_index="40"/>
+                    <object_ref id="41" timeline="41" key="0" z_index="41"/>
+                    <object_ref id="42" timeline="42" key="0" z_index="42"/>
+                    <object_ref id="43" timeline="43" key="0" z_index="43"/>
+                    <object_ref id="44" timeline="44" key="0" z_index="44"/>
+                    <object_ref id="45" timeline="45" key="0" z_index="45"/>
+                    <object_ref id="46" timeline="46" key="0" z_index="46"/>
+                    <object_ref id="47" timeline="47" key="0" z_index="47"/>
+                    <object_ref id="48" timeline="48" key="0" z_index="48"/>
+                    <object_ref id="49" timeline="49" key="0" z_index="49"/>
+                    <object_ref id="50" timeline="50" key="0" z_index="50"/>
+                    <object_ref id="51" timeline="51" key="0" z_index="51"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="city-bg-up">
+                <key id="0" spin="0">
+                    <object folder="0" file="3" x="-1405.026455" y="425.592593" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="city-bg-up_000">
+                <key id="0" spin="0">
+                    <object folder="0" file="3" x="-445.026455" y="425.592593" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="city-bg-ground">
+                <key id="0" spin="0">
+                    <object folder="0" file="10" x="-8.574332" y="-114.111111" angle="0" scale_x="118.634894" scale_y="27.914696"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="cobble">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-1805.026455" y="-40.338441" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="4" name="cobble_000">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-1821.053653" y="-82.203424" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="5" name="cobble_001">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-1777.391681" y="-77.978072" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="6" name="cobble_002">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-1736.01237" y="-61.562337" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="7" name="cobble_003">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-1476.857441" y="59.564424" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="8" name="cobble_004">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-1074.04054" y="7.451748" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="9" name="cobble_005">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-1037.774178" y="33.858954" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="10" name="cobble_006">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-1029.761437" y="-3.467478" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="11" name="cobble_007">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-995.839176" y="33.988353" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="12" name="cobble_008">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-989.125395" y="-3.467478" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="13" name="cobble_009">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-773.653906" y="-169.074074" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="14" name="cobble_010">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-739.11187" y="-141.639209" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="15" name="cobble_011">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-486.931217" y="-185.26455" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="16" name="cobble_012">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-449.78836" y="-157.645502" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="17" name="cobble_013">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-443.597884" y="-195.74074" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="18" name="cobble_014">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-343.121693" y="40.449736" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="19" name="cobble_015">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-300.26455" y="50.925926" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="20" name="cobble_016">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-305.978836" y="9.973545" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="21" name="cobble_017">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-157.407407" y="111.878307" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="22" name="cobble_018">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-115.502645" y="114.73545" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="23" name="city-bg-up_001">
+                <key id="0" spin="0">
+                    <object folder="0" file="3" x="514.973545" y="425.592593" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="24" name="city-bg-up_002">
+                <key id="0" spin="0">
+                    <object folder="0" file="3" x="1474.973545" y="425.592593" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="25" name="cobble_020">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="96.875" y="-31.25" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="26" name="cobble_022">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="225" y="118.75" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="27" name="cobble_024">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="276.666667" y="115" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="28" name="cobble_025">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="321.666667" y="31.666667" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="29" name="cobble_026">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="465" y="-183.333333" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="30" name="cobble_028">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="826.666667" y="75" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="31" name="cobble_029">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="790" y="114" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="32" name="cobble_030">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="836.666667" y="116.666667" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="33" name="cobble_031">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="991.666667" y="26.666667" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="34" name="cobble_032">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="1038.333333" y="1.666667" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="35" name="cobble_033">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="1230" y="63.333333" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="36" name="cobble_034">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="1248.333333" y="-153.333333" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="37" name="cobble_035">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="1288.333333" y="-185" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="38" name="cobble_036">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="1328.333333" y="-148.333333" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="39" name="cobble_037">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="1580" y="146.666667" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="40" name="cobble_038">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="1763.333333" y="-35" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="41" name="cobble_040">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="1743.333333" y="-71.666667" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="42" name="cobble_019">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-1285.714286" y="-190.47619" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="43" name="cobble_021">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="778.571429" y="76.190476" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="44" name="cobble_023">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="880.952381" y="97.619048" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="45" name="boxes" object_type="entity">
+                <key id="0" spin="0">
+                    <object entity="1" animation="0" t="0" x="-1594.736842" y="-186.842105" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="46" name="tree" object_type="entity">
+                <key id="0" spin="0">
+                    <object entity="6" animation="0" t="0" x="-994.736842" y="-55.263158" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="47" name="hydrant" object_type="entity">
+                <key id="0" spin="0">
+                    <object entity="4" animation="0" t="0" x="-463.157895" y="-171.052632" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="48" name="fountain" object_type="entity">
+                <key id="0" spin="0">
+                    <object entity="3" animation="0" t="0" x="18.421053" y="-152.631579" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="49" name="wastebin" object_type="entity">
+                <key id="0" spin="0">
+                    <object entity="7" animation="0" t="0" x="789.473684" y="-157.894737" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="50" name="traffic-light" object_type="entity">
+                <key id="0" spin="0">
+                    <object entity="0" animation="0" t="0" x="1118.421053" y="-92.105263" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="51" name="flowers" object_type="entity">
+                <key id="0" spin="0">
+                    <object entity="2" animation="0" t="0" x="1686.842105" y="-176.315789" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+    <entity id="26" name="background_01">
+        <animation id="0" name="idle" length="1000" interval="100">
+            <gline pos="-540"/>
+            <gline pos="-960" v="1"/>
+            <gline pos="540"/>
+            <gline pos="960" v="1"/>
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="2" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="1" key="0" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="0" z_index="3"/>
+                    <object_ref id="4" timeline="4" key="0" z_index="4"/>
+                    <object_ref id="5" timeline="5" key="0" z_index="5"/>
+                    <object_ref id="6" timeline="6" key="0" z_index="6"/>
+                    <object_ref id="7" timeline="7" key="0" z_index="7"/>
+                    <object_ref id="8" timeline="8" key="0" z_index="8"/>
+                    <object_ref id="9" timeline="9" key="0" z_index="9"/>
+                    <object_ref id="10" timeline="10" key="0" z_index="10"/>
+                    <object_ref id="11" timeline="11" key="0" z_index="11"/>
+                    <object_ref id="12" timeline="12" key="0" z_index="12"/>
+                    <object_ref id="13" timeline="13" key="0" z_index="13"/>
+                    <object_ref id="14" timeline="14" key="0" z_index="14"/>
+                    <object_ref id="15" timeline="15" key="0" z_index="15"/>
+                    <object_ref id="16" timeline="16" key="0" z_index="16"/>
+                    <object_ref id="17" timeline="17" key="0" z_index="17"/>
+                    <object_ref id="18" timeline="18" key="0" z_index="18"/>
+                    <object_ref id="19" timeline="19" key="0" z_index="19"/>
+                    <object_ref id="20" timeline="20" key="0" z_index="20"/>
+                    <object_ref id="21" timeline="21" key="0" z_index="21"/>
+                    <object_ref id="22" timeline="22" key="0" z_index="22"/>
+                    <object_ref id="23" timeline="23" key="0" z_index="23"/>
+                    <object_ref id="24" timeline="24" key="0" z_index="24"/>
+                    <object_ref id="25" timeline="25" key="0" z_index="25"/>
+                    <object_ref id="26" timeline="26" key="0" z_index="26"/>
+                    <object_ref id="27" timeline="27" key="0" z_index="27"/>
+                    <object_ref id="28" timeline="28" key="0" z_index="28"/>
+                    <object_ref id="29" timeline="29" key="0" z_index="29"/>
+                    <object_ref id="30" timeline="30" key="0" z_index="30"/>
+                    <object_ref id="31" timeline="31" key="0" z_index="31"/>
+                    <object_ref id="32" timeline="32" key="0" z_index="32"/>
+                    <object_ref id="33" timeline="33" key="0" z_index="33"/>
+                    <object_ref id="34" timeline="34" key="0" z_index="34"/>
+                    <object_ref id="35" timeline="35" key="0" z_index="35"/>
+                    <object_ref id="36" timeline="36" key="0" z_index="36"/>
+                    <object_ref id="37" timeline="37" key="0" z_index="37"/>
+                    <object_ref id="38" timeline="38" key="0" z_index="38"/>
+                    <object_ref id="39" timeline="39" key="0" z_index="39"/>
+                    <object_ref id="40" timeline="40" key="0" z_index="40"/>
+                    <object_ref id="41" timeline="41" key="0" z_index="41"/>
+                    <object_ref id="42" timeline="42" key="0" z_index="42"/>
+                    <object_ref id="43" timeline="43" key="0" z_index="43"/>
+                    <object_ref id="44" timeline="44" key="0" z_index="44"/>
+                    <object_ref id="45" timeline="45" key="0" z_index="45"/>
+                    <object_ref id="46" timeline="46" key="0" z_index="46"/>
+                    <object_ref id="47" timeline="47" key="0" z_index="47"/>
+                    <object_ref id="48" timeline="48" key="0" z_index="48"/>
+                    <object_ref id="49" timeline="49" key="0" z_index="49"/>
+                    <object_ref id="50" timeline="50" key="0" z_index="50"/>
+                    <object_ref id="51" timeline="51" key="0" z_index="51"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="city-bg-up">
+                <key id="0" spin="0">
+                    <object folder="0" file="3" x="-1402.394876" y="428.224172" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="city-bg-up_000">
+                <key id="0" spin="0">
+                    <object folder="0" file="3" x="-445.026455" y="425.592593" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="city-bg-ground">
+                <key id="0" spin="0">
+                    <object folder="0" file="10" x="-11.205911" y="-114.111111" angle="0" scale_x="124.443101" scale_y="27.914696"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="cobble">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-1805.026455" y="-40.338441" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="4" name="cobble_000">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-1821.053653" y="-82.203424" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="5" name="cobble_001">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-1777.391681" y="-77.978072" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="6" name="cobble_002">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-1736.01237" y="-61.562337" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="7" name="cobble_003">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-1476.857441" y="59.564424" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="8" name="cobble_004">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-1074.04054" y="7.451748" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="9" name="cobble_005">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-1037.774178" y="33.858954" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="10" name="cobble_006">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-1029.761437" y="-3.467478" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="11" name="cobble_007">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-995.839176" y="33.988353" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="12" name="cobble_008">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-989.125395" y="-3.467478" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="13" name="cobble_009">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-773.653906" y="-169.074074" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="14" name="cobble_010">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-739.11187" y="-141.639209" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="15" name="cobble_011">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-486.931217" y="-185.26455" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="16" name="cobble_012">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-449.78836" y="-157.645502" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="17" name="cobble_013">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-443.597884" y="-195.74074" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="18" name="cobble_014">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-343.121693" y="40.449736" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="19" name="cobble_015">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-300.26455" y="50.925926" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="20" name="cobble_016">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-305.978836" y="9.973545" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="21" name="cobble_017">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-157.407407" y="111.878307" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="22" name="cobble_018">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-115.502645" y="114.73545" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="23" name="city-bg-up_001">
+                <key id="0" spin="0">
+                    <object folder="0" file="3" x="514.973545" y="425.592593" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="24" name="city-bg-up_002">
+                <key id="0" spin="0">
+                    <object folder="0" file="3" x="1474.973545" y="425.592593" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="25" name="cobble_020">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="96.875" y="-31.25" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="26" name="cobble_022">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="225" y="118.75" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="27" name="cobble_024">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="276.666667" y="115" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="28" name="cobble_025">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="321.666667" y="31.666667" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="29" name="cobble_026">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="465" y="-183.333333" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="30" name="cobble_028">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="826.666667" y="75" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="31" name="cobble_029">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="790" y="114" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="32" name="cobble_030">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="836.666667" y="116.666667" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="33" name="cobble_031">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="991.666667" y="26.666667" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="34" name="cobble_032">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="1038.333333" y="1.666667" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="35" name="cobble_033">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="1230" y="63.333333" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="36" name="cobble_034">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="1248.333333" y="-153.333333" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="37" name="cobble_035">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="1288.333333" y="-185" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="38" name="cobble_036">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="1328.333333" y="-148.333333" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="39" name="cobble_037">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="1580" y="146.666667" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="40" name="cobble_038">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="1763.333333" y="-35" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="41" name="cobble_040">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="1743.333333" y="-71.666667" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="42" name="cobble_019">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-1285.714286" y="-190.47619" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="43" name="cobble_021">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="778.571429" y="76.190476" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="44" name="cobble_023">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="880.952381" y="97.619048" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="45" name="boxes" object_type="entity">
+                <key id="0" spin="0">
+                    <object entity="1" animation="0" t="0" x="1644.736842" y="-81.578947" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="46" name="hydrant" object_type="entity">
+                <key id="0" spin="0">
+                    <object entity="4" animation="0" t="0" x="-479.052631" y="-82.578951" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="47" name="traffic-light" object_type="entity">
+                <key id="0" spin="0">
+                    <object entity="0" animation="0" t="0" x="-1125.600393" y="-202.025337" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="48" name="flowers" object_type="entity">
+                <key id="0" spin="0">
+                    <object entity="2" animation="0" t="0" x="241.789474" y="-170.789477" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="49" name="fountain" object_type="entity">
+                <key id="0" spin="0">
+                    <object entity="3" animation="0" t="0" x="602.999996" y="-30.052628" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="50" name="flowers_000" object_type="entity">
+                <key id="0" spin="0">
+                    <object entity="2" animation="0" t="0" x="953.84211" y="-161.526316" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="51" name="sign" object_type="entity">
+                <key id="0" spin="0">
+                    <object entity="5" animation="0" t="0" x="-1648.34308" y="27.48538" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>

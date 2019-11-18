@@ -1,0 +1,558 @@
+{
+    "clearColor": "#E2CF81",
+    "entities": [
+        {
+            "components": [
+                {
+                    "OrthoCamera": {
+                        "zoom": 1
+                    }
+                },
+                "AutoViewport",
+                {
+                    "Tracker": {
+                        "id": 1,
+                        "trackX": true,
+                        "trackY": false
+                    }
+                },
+                {
+                    "Position": {
+                        "x": 1540,
+                        "y": 0
+                    }
+                }
+            ],
+            "name": "camera"
+        },
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "beach.scml",
+                        "atlas": "beach-atlas.json",
+                        "entityName": "background"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "idle"
+                    }
+                },
+                {
+                    "DrawOrder": {
+                        "kind": {
+                            "Static": {
+                                "z": -66666
+                            }
+                        }
+                    }
+                },
+                {
+                    "Position": {
+                        "x": 0,
+                        "y": 0
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "beach.scml",
+                        "atlas": "beach-atlas.json",
+                        "entityName": "chair"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "idle"
+                    }
+                },
+                "ItemContainer",
+                {
+                    "DrawOrder": {
+                        "kind": "ByY"
+                    }
+                },
+                {
+                    "Position": {
+                        "x": -1561,
+                        "y": 111
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "beach.scml",
+                        "atlas": "beach-atlas.json",
+                        "entityName": "towel"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "idle"
+                    }
+                },
+                "ItemContainer",
+                {
+                    "DrawOrder": {
+                        "kind": "ByY"
+                    }
+                },
+                {
+                    "Position": {
+                        "x": -880,
+                        "y": 33
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "beach.scml",
+                        "atlas": "beach-atlas.json",
+                        "entityName": "seagrass"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "idle"
+                    }
+                },
+                "ItemContainer",
+                {
+                    "DrawOrder": {
+                        "kind": "ByY"
+                    }
+                },
+                {
+                    "Position": {
+                        "x": -283,
+                        "y": 125
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "beach.scml",
+                        "atlas": "beach-atlas.json",
+                        "entityName": "chair"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "idle"
+                    }
+                },
+                "ItemContainer",
+                {
+                    "DrawOrder": {
+                        "kind": "ByY"
+                    }
+                },
+                {
+                    "Position": {
+                        "x": 227,
+                        "y": 5
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "beach.scml",
+                        "atlas": "beach-atlas.json",
+                        "entityName": "sandcastle"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "idle"
+                    }
+                },
+                "ItemContainer",
+                {
+                    "DrawOrder": {
+                        "kind": "ByY"
+                    }
+                },
+                {
+                    "Position": {
+                        "x": 880,
+                        "y": 133
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "beach.scml",
+                        "atlas": "beach-atlas.json",
+                        "entityName": "seagrass"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "idle"
+                    }
+                },
+                "ItemContainer",
+                {
+                    "DrawOrder": {
+                        "kind": "ByY"
+                    }
+                },
+                {
+                    "Position": {
+                        "x": 1311,
+                        "y": -72
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "beach.scml",
+                        "atlas": "beach-atlas.json",
+                        "entityName": "lifesaver"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "idle"
+                    }
+                },
+                "ItemContainer",
+                {
+                    "DrawOrder": {
+                        "kind": "ByY"
+                    }
+                },
+                {
+                    "Position": {
+                        "x": 1747,
+                        "y": 86
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "floyd.scml",
+                        "atlas": "floyd/floyd-atlas.json",
+                        "entityName": "floyd"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "sniff-right"
+                    }
+                },
+                {
+                    "NavAgent": {
+                        "speed": 10
+                    }
+                },
+                {
+                    "PlayerState": {
+                        "action": "Sniff",
+                        "facing": "Right"
+                    }
+                },
+                {
+                    "DrawOrder": {
+                        "kind": "ByY"
+                    }
+                },
+                {
+                    "TrackerTarget": {
+                        "id": 1
+                    }
+                },
+                {
+                    "Position": {
+                        "x": -1700,
+                        "y": 250
+                    }
+                }, { "BubbleOwner": { "id": 1 } }
+            ]
+        }
+    ],
+    "height": 1080,
+    "itempool": [
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "beach.scml",
+                        "atlas": "beach-atlas.json",
+                        "entityName": "alge"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "slotted"
+                    }
+                },
+                { "ItemSlotSoundEffect": { "sound": "beach-sfx-%lang%/algae" } }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "beach.scml",
+                        "atlas": "beach-atlas.json",
+                        "entityName": "boat"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "slotted"
+                    }
+                },
+                { "ItemSlotSoundEffect": { "sound": "beach-sfx-%lang%/boat" } }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "beach.scml",
+                        "atlas": "beach-atlas.json",
+                        "entityName": "bucket"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "slotted"
+                    }
+                },
+                { "ItemSlotSoundEffect": { "sound": "beach-sfx-%lang%/bucket" } }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "beach.scml",
+                        "atlas": "beach-atlas.json",
+                        "entityName": "clam"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "slotted"
+                    }
+                },
+                { "ItemSlotSoundEffect": { "sound": "beach-sfx-%lang%/clam" } }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "beach.scml",
+                        "atlas": "beach-atlas.json",
+                        "entityName": "crab"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "slotted"
+                    }
+                },
+                { "ItemSlotSoundEffect": { "sound": "beach-sfx-%lang%/crab" } }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "beach.scml",
+                        "atlas": "beach-atlas.json",
+                        "entityName": "divingset"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "slotted"
+                    }
+                },
+                { "ItemSlotSoundEffect": { "sound": "beach-sfx-%lang%/diving_set" } }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "beach.scml",
+                        "atlas": "beach-atlas.json",
+                        "entityName": "fish2"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "slotted"
+                    }
+                },
+                { "ItemSlotSoundEffect": { "sound": "beach-sfx-%lang%/fish" } }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "beach.scml",
+                        "atlas": "beach-atlas.json",
+                        "entityName": "fishing-boat"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "slotted"
+                    }
+                },
+                { "ItemSlotSoundEffect": { "sound": "beach-sfx-%lang%/boat" } }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "beach.scml",
+                        "atlas": "beach-atlas.json",
+                        "entityName": "hat"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "slotted"
+                    }
+                },
+                { "ItemSlotSoundEffect": { "sound": "beach-sfx-%lang%/hat" } }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "beach.scml",
+                        "atlas": "beach-atlas.json",
+                        "entityName": "icecream"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "slotted"
+                    }
+                },
+                { "ItemSlotSoundEffect": { "sound": "beach-sfx-%lang%/icecream" } }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "beach.scml",
+                        "atlas": "beach-atlas.json",
+                        "entityName": "jellyfish"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "slotted"
+                    }
+                },
+                { "ItemSlotSoundEffect": { "sound": "beach-sfx-%lang%/jellyfish" } }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "beach.scml",
+                        "atlas": "beach-atlas.json",
+                        "entityName": "seagull"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "slotted"
+                    }
+                },
+                { "ItemSlotSoundEffect": { "sound": "beach-sfx-%lang%/seagull" } }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "beach.scml",
+                        "atlas": "beach-atlas.json",
+                        "entityName": "starfish"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "slotted"
+                    }
+                },
+                { "ItemSlotSoundEffect": { "sound": "beach-sfx-%lang%/starfish" } }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "beach.scml",
+                        "atlas": "beach-atlas.json",
+                        "entityName": "trunks"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "slotted"
+                    }
+                },
+                { "ItemSlotSoundEffect": { "sound": "beach-sfx-%lang%/shorts" } }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "SpriterModel": {
+                        "scml": "beach.scml",
+                        "atlas": "beach-atlas.json",
+                        "entityName": "fish"
+                    }
+                },
+                {
+                    "SpriterAnimation": {
+                        "name": "slotted"
+                    }
+                },
+                { "ItemSlotSoundEffect": { "sound": "beach-sfx-%lang%/fish" } }
+            ]
+        }
+    ],
+    "width": 1920
+}
